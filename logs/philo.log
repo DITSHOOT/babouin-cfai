@@ -1,0 +1,14 @@
+Connecté en tant que Babouin le Philosophe#4045
+Connecté en tant que Babouin le Philosophe#4045
+TypeError: bot.user.setActivity(...).then is not a function
+    at Timeout._onTimeout (/volume1/homes/dimitrichassignol/Autres/bot/philo_cop-main/philo.js:37:8)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7)
+Erreur non capturée : TypeError: bot.user.setActivity(...).then is not a function
+    at Timeout._onTimeout (/volume1/homes/dimitrichassignol/Autres/bot/philo_cop-main/philo.js:37:8)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7)
+Connecté en tant que Babouin le Philosophe#4045
+Connecté en tant que Babouin le Philosophe#4045
+Connecté en tant que Babouin le Philosophe#4045
+Connecté en tant que Babouin le Philosophe#4045
