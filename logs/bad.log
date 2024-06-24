@@ -8424,3 +8424,133 @@ ReferenceError: ActivityType is not defined
 Connecté en tant que Babouin le Flic du Quartier#4046
 Connecté en tant que Babouin le Flic du Quartier#4046
 Connecté en tant que Babouin le Flic du Quartier#4046
+Connecté en tant que Babouin le Flic du Quartier#4046
+Connecté en tant que Babouin le Flic du Quartier#4046
+Activité mise à jour avec succès : Let's Groove - Earth, Wind & Fire
+Connecté en tant que Babouin le Flic du Quartier#4046
+DiscordAPIError[50035]: Invalid Form Body
+message_reference[MESSAGE_REFERENCE_UNKNOWN_MESSAGE]: Unknown message
+    at handleErrors (/volume1/homes/dimitrichassignol/Autres/bot/bad_cop-main/node_modules/@discordjs/rest/dist/index.js:719:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async SequentialHandler.runRequest (/volume1/homes/dimitrichassignol/Autres/bot/bad_cop-main/node_modules/@discordjs/rest/dist/index.js:1110:23)
+    at async SequentialHandler.queueRequest (/volume1/homes/dimitrichassignol/Autres/bot/bad_cop-main/node_modules/@discordjs/rest/dist/index.js:947:14)
+    at async _REST.request (/volume1/homes/dimitrichassignol/Autres/bot/bad_cop-main/node_modules/@discordjs/rest/dist/index.js:1256:22)
+    at async TextChannel.send (/volume1/homes/dimitrichassignol/Autres/bot/bad_cop-main/node_modules/discord.js/src/structures/interfaces/TextBasedChannel.js:155:15)
+    at async Client.<anonymous> (/volume1/homes/dimitrichassignol/Autres/bot/bad_cop-main/bad.js:389:38) {
+  requestBody: {
+    files: [],
+    json: {
+      content: 'Libération de <@493223347375570989> !',
+      tts: false,
+      nonce: undefined,
+      embeds: undefined,
+      components: undefined,
+      username: undefined,
+      avatar_url: undefined,
+      allowed_mentions: undefined,
+      flags: undefined,
+      message_reference: [Object],
+      attachments: undefined,
+      sticker_ids: undefined,
+      thread_name: undefined
+    }
+  },
+  rawError: {
+    message: 'Invalid Form Body',
+    code: 50035,
+    errors: { message_reference: [Object] }
+  },
+  code: 50035,
+  status: 400,
+  method: 'POST',
+  url: 'https://discord.com/api/v10/channels/1151478201823023214/messages'
+}
+DiscordAPIError[10008]: Unknown Message
+    at handleErrors (/volume1/homes/dimitrichassignol/Autres/bot/bad_cop-main/node_modules/@discordjs/rest/dist/index.js:719:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async SequentialHandler.runRequest (/volume1/homes/dimitrichassignol/Autres/bot/bad_cop-main/node_modules/@discordjs/rest/dist/index.js:1110:23)
+    at async SequentialHandler.queueRequest (/volume1/homes/dimitrichassignol/Autres/bot/bad_cop-main/node_modules/@discordjs/rest/dist/index.js:947:14)
+    at async _REST.request (/volume1/homes/dimitrichassignol/Autres/bot/bad_cop-main/node_modules/@discordjs/rest/dist/index.js:1256:22)
+    at async GuildMessageManager.delete (/volume1/homes/dimitrichassignol/Autres/bot/bad_cop-main/node_modules/discord.js/src/managers/MessageManager.js:266:5)
+    at async Message.delete (/volume1/homes/dimitrichassignol/Autres/bot/bad_cop-main/node_modules/discord.js/src/structures/Message.js:829:5) {
+  requestBody: { files: undefined, json: undefined },
+  rawError: { message: 'Unknown Message', code: 10008 },
+  code: 10008,
+  status: 404,
+  method: 'DELETE',
+  url: 'https://discord.com/api/v10/channels/1151478201823023214/messages/1254720708651782234'
+}
+DiscordAPIError[50035]: Invalid Form Body
+message_reference[MESSAGE_REFERENCE_UNKNOWN_MESSAGE]: Unknown message
+    at handleErrors (/volume1/homes/dimitrichassignol/Autres/bot/bad_cop-main/node_modules/@discordjs/rest/dist/index.js:719:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async SequentialHandler.runRequest (/volume1/homes/dimitrichassignol/Autres/bot/bad_cop-main/node_modules/@discordjs/rest/dist/index.js:1110:23)
+    at async SequentialHandler.queueRequest (/volume1/homes/dimitrichassignol/Autres/bot/bad_cop-main/node_modules/@discordjs/rest/dist/index.js:947:14)
+    at async _REST.request (/volume1/homes/dimitrichassignol/Autres/bot/bad_cop-main/node_modules/@discordjs/rest/dist/index.js:1256:22)
+    at async TextChannel.send (/volume1/homes/dimitrichassignol/Autres/bot/bad_cop-main/node_modules/discord.js/src/structures/interfaces/TextBasedChannel.js:155:15) {
+  requestBody: {
+    files: [],
+    json: {
+      content: 'Erreur en libérant le babouin... Babouin est très fâché !',
+      tts: false,
+      nonce: undefined,
+      embeds: undefined,
+      components: undefined,
+      username: undefined,
+      avatar_url: undefined,
+      allowed_mentions: undefined,
+      flags: undefined,
+      message_reference: [Object],
+      attachments: undefined,
+      sticker_ids: undefined,
+      thread_name: undefined
+    }
+  },
+  rawError: {
+    message: 'Invalid Form Body',
+    code: 50035,
+    errors: { message_reference: [Object] }
+  },
+  code: 50035,
+  status: 400,
+  method: 'POST',
+  url: 'https://discord.com/api/v10/channels/1151478201823023214/messages'
+}
+Erreur non gérée : DiscordAPIError[50035]: Invalid Form Body
+message_reference[MESSAGE_REFERENCE_UNKNOWN_MESSAGE]: Unknown message
+    at handleErrors (/volume1/homes/dimitrichassignol/Autres/bot/bad_cop-main/node_modules/@discordjs/rest/dist/index.js:719:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async SequentialHandler.runRequest (/volume1/homes/dimitrichassignol/Autres/bot/bad_cop-main/node_modules/@discordjs/rest/dist/index.js:1110:23)
+    at async SequentialHandler.queueRequest (/volume1/homes/dimitrichassignol/Autres/bot/bad_cop-main/node_modules/@discordjs/rest/dist/index.js:947:14)
+    at async _REST.request (/volume1/homes/dimitrichassignol/Autres/bot/bad_cop-main/node_modules/@discordjs/rest/dist/index.js:1256:22)
+    at async TextChannel.send (/volume1/homes/dimitrichassignol/Autres/bot/bad_cop-main/node_modules/discord.js/src/structures/interfaces/TextBasedChannel.js:155:15) {
+  requestBody: {
+    files: [],
+    json: {
+      content: 'Erreur en libérant le babouin... Babouin est très fâché !',
+      tts: false,
+      nonce: undefined,
+      embeds: undefined,
+      components: undefined,
+      username: undefined,
+      avatar_url: undefined,
+      allowed_mentions: undefined,
+      flags: undefined,
+      message_reference: [Object],
+      attachments: undefined,
+      sticker_ids: undefined,
+      thread_name: undefined
+    }
+  },
+  rawError: {
+    message: 'Invalid Form Body',
+    code: 50035,
+    errors: { message_reference: [Object] }
+  },
+  code: 50035,
+  status: 400,
+  method: 'POST',
+  url: 'https://discord.com/api/v10/channels/1151478201823023214/messages'
+}
+Connecté en tant que Babouin le Flic du Quartier#4046
+Activité mise à jour avec succès : Let's Groove - Earth, Wind & Fire

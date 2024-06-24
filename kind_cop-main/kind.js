@@ -16,7 +16,7 @@ let status = [
     status: "dnd",
   },
   {
-    name: 'du Popocorn 🍿',
+    name: 'du Popcorn 🍿',
     type: Discord.ActivityType.Watching,
     status: "online",
   },

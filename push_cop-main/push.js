@@ -3,8 +3,8 @@ const bot = new Discord.Client({ intents: 3276799 });
 const config = require('./config');
 const express = require('express');
 const app = express();
+const schedule = require('node-schedule');
 const authorizedID = '510818650307952640';
-// const PORT = process.env.PORT || 3000;
 
 bot.login(config.token);
 
@@ -44,45 +44,37 @@ bot.on('ready', () => {
     }
   }, 7200000); // 2 heures en millisecondes
 
-  // Changer l'activité toutes les 2 heures
-  setInterval(() => {
-    let random = Math.floor(Math.random() * status.length);
-    bot.user.setActivity(status[random].name, { type: status[random].type })
-      .then(presence => console.log(`Activité mise à jour avec succès : ${presence.activities[0].name}`))
-      .catch(console.error);
-  }, 2 * 60 * 60 * 1000); // 2 heures en millisecondes
+  // Fonction pour envoyer le message
+  const sendReminder = () => {
+    const channel = bot.channels.cache.get('1163902591768477776'); // Remplacer par l'ID de votre salon
 
-  // Définir l'intervalle pour vérifier l'heure et le jour
-  setInterval(() => {
-    const date = new Date();
-    const dayOfWeek = date.getDay(); // 0 pour dimanche, 1 pour lundi, ..., 6 pour samedi
-    const hour = date.getHours();
+    if (channel) {
+      const embed = new Discord.EmbedBuilder()
+        .setColor('#0099ff')
+        .setTitle("N'oubliez pas de pousser !")
+        .setDescription("Attention Vivasse ne va pas être content, faut pousser !");
 
-    // Vérifier que ce n'est pas le weekend (jours 0 et 6)
-    if (dayOfWeek !== 0 && dayOfWeek !== 6) {
-      // Vérifier l'heure
-      if (hour === 10 || hour === 14 || hour === 18) {
-        const channel = client.channels.cache.get('1163902591768477776'); // Remplacer par l'ID de votre salon
-
-        if (channel) {
-          const embed = new Discord.MessageEmbed()
-            .setColor('#0099ff')
-            .setTitle('Titre de l\'embed')
-            .setDescription('Contenu de l\'embed');
-
-          channel.send(embed)
-            .then(() => console.log('Embed envoyé avec succès'))
-            .catch(console.error);
-        } else {
-          console.error('Le salon spécifié est introuvable.');
-        }
-      }
+      // Envoyer l'embed
+      channel.send({ embeds: [embed] })
+        .then(() => {
+          // Envoyer le message en plus de l'embed
+          return channel.send("<@&1192744421201035374>");
+        })
+        .then(() => console.log('Rappel pour pousser sur Git envoyé !'))
+        .catch(console.error);
+    } else {
+      console.error('Le salon spécifié est introuvable.');
     }
-  }, 60 * 1000); // Vérification toutes les minutes
+  };
+
+  // Planifier les messages à 10h, 14h et 17h chaque jour
+  schedule.scheduleJob('0 10 * * 1-5', sendReminder); // À 10h du lundi au vendredi
+  schedule.scheduleJob('0 14 * * 1-5', sendReminder); // À 14h du lundi au vendredi
+  schedule.scheduleJob('0 17 * * 1-5', sendReminder); // À 17h du lundi au vendredi
 });
 
 bot.on('messageCreate', (message) => {
-  if (message.content.startsWith(config.prefix + 'erreur') && message.author.id === "510818650307952640") {
+  if (message.content.startsWith(config.prefix + 'erreur') && message.author.id === authorizedID) {
     // Générez une erreur en référençant une variable non définie
     console.log(variable_non_definie); // Cela générera une erreur
   }
@@ -101,16 +93,14 @@ process.on('uncaughtException', (error) => {
 });
 
 bot.on('messageCreate', async (message) => {
-  if (message.content.startsWith(config.prefix + 'reload') && message.author.id === "510818650307952640") {
-  message.delete();
-  console.log("Redémarrage du bot en cours...")
-  // Générez une erreur en référençant une variable non définie
-  await message.channel.send("Redémarrage du bot en cours...");
-  message.delete();
-  process.exit();
+  if (message.content.startsWith(config.prefix + 'reload') && message.author.id === authorizedID) {
+    message.delete();
+    console.log("Redémarrage du bot en cours...");
+    await message.channel.send("Redémarrage du bot en cours...");
+    message.delete();
+    process.exit();
   }
 });
-
 
 bot.on('messageCreate', (message) => {
   if (message.author.bot) return; // Ne répondez pas aux messages des bots
@@ -123,15 +113,10 @@ bot.on('messageCreate', (message) => {
     // Vérifiez si l'utilisateur est un administrateur
     if (!message.member.permissions.has('ADMINISTRATOR')) {
       return message.reply('Seuls les administrateurs sont autorisés à utiliser cette commande.');
-    } 
+    }
 
     // Supprime la commande de l'utilisateur
     message.delete();
-
-    // Vérifiez si l'utilisateur est également un administrateur pour utiliser args.join
-    if (!message.member.permissions.has('ADMINISTRATOR')) {
-      return message.reply('Seuls les administrateurs sont autorisés à utiliser cette partie de la commande.');
-    }
 
     // Récupère le message de l'utilisateur, en excluant le préfixe
     const userMessage = args.join(' ');
@@ -144,11 +129,6 @@ bot.on('messageCreate', (message) => {
   }
 });
 
-
-
-
-
-
 bot.on('messageCreate', (message) => {
   if (message.content === '!ping') {
     const embed = new Discord.EmbedBuilder()
@@ -158,12 +138,5 @@ bot.on('messageCreate', (message) => {
 
     message.channel.send({ embeds: [embed] });
   }
-
-    
 });
 
-
-
-// Au lieu d'utiliser setTimeout, j'utilise setInterval. setInterval permet d'exécuter une fonction à intervalles réguliers, tandis que setTimeout ne l'exécute qu'une seule fois (évite l'envoi de plein de message à la foi). Cela permet d'éviter de réinitialiser la temporisation à chaque message créé.
-
-// Stockage de l'identifiant de l'intervalle : J'ai ajouté une variable reminderInterval pour stocker l'identifiant de l'intervalle créé par setInterval. Cela nous permet de le manipuler plus tard, notamment pour l'arrêter lorsque l'envoi de l'embed est désactivé.

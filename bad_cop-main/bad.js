@@ -264,7 +264,7 @@ bot.on('messageCreate', async message => {
     if (!message.guild) return;
 
     if (message.content.startsWith(config.prefix + 'mute')) {
-        if (message.author.id !== config.authorizedID) {
+        if (message.author.id !== authorizedID) {
             return message.reply('Vous n\'êtes pas autorisé à utiliser cette commande.');
         }
 
@@ -370,7 +370,7 @@ bot.on('messageCreate', async message => {
 
     // Commande de unmute
     if (message.content.startsWith(config.prefix + 'unmute')) {
-        if (message.author.id !== config.authorizedID) {
+        if (message.author.id !== authorizedID) {
             return message.reply('Vous n\'êtes pas autorisé à utiliser cette commande.');
         }
 
@@ -552,7 +552,7 @@ bot.on('messageCreate', async message => {
 			{ name: '🍌 Niveau de nuisance', value: 'Extrême' },
 		  ],
 		  thumbnail: {
-			url: "https://cdn.discordapp.com/attachments/1163902591768477776/1254087255728062594/enzo.png?ex=66783745&is=6676e5c5&hm=280038d7fc87b246fd8343a38e7afd98d999625c18d8955726ed069b995eb359&", // Insérez ici l'URL d'une image de babouin
+			url: "https://i.imgur.com/MwbJlKD.png", // Insérez ici l'URL d'une image de babouin
 		  },
 		  timestamp: new Date(),
 		  footer: {
