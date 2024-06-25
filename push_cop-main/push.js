@@ -45,28 +45,30 @@ bot.on('ready', () => {
   }, 7200000); // 2 heures en millisecondes
 
   // Fonction pour envoyer le message
-  const sendReminder = () => {
-    const channel = bot.channels.cache.get('1163902591768477776'); // Remplacer par l'ID de votre salon
+  const sendReminder = async () => {
+  const channel = bot.channels.cache.get('1151478201823023214'); // Remplacer par l'ID de votre salon
 
-    if (channel) {
-      const embed = new Discord.EmbedBuilder()
-        .setColor('#0099ff')
-        .setTitle("N'oubliez pas de pousser !")
-        .setDescription("Attention Vivasse ne va pas être content, faut pousser !");
+  if (channel) {
+    const embed = new Discord.EmbedBuilder()
+      .setColor('#0099ff')
+      .setTitle("N'oubliez pas de pousser !")
+      .setDescription("Attention Vivasse ne va pas être content, faut pousser !");
 
+    try {
       // Envoyer l'embed
-      channel.send({ embeds: [embed] })
-        .then(() => {
-          // Envoyer le message en plus de l'embed
-          return channel.send("<@&1192744421201035374>");
-        })
-        .then(() => console.log('Rappel pour pousser sur Git envoyé !'))
-        .catch(console.error);
-    } else {
-      console.error('Le salon spécifié est introuvable.');
+      await channel.send({ embeds: [embed] });
+      console.log("Embed envoyé !");
+      
+      // Envoyer le message en plus de l'embed
+      await channel.send("<@&1192744421201035374>");
+      console.log('Rappel pour pousser sur Git envoyé !');
+    } catch (error) {
+      console.error('Erreur lors de l\'envoi du rappel :', error);
     }
-  };
-
+  } else {
+    console.error('Le salon spécifié est introuvable.');
+  }
+};
   // Planifier les messages à 10h, 14h et 17h chaque jour
   schedule.scheduleJob('0 10 * * 1-5', sendReminder); // À 10h du lundi au vendredi
   schedule.scheduleJob('0 14 * * 1-5', sendReminder); // À 14h du lundi au vendredi
