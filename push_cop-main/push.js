@@ -71,8 +71,7 @@ bot.on('ready', () => {
 };
   // Planifier les messages à 10h, 14h et 17h chaque jour
   schedule.scheduleJob('0 10 * * 1-5', sendReminder); // À 10h du lundi au vendredi
-  schedule.scheduleJob('0 14 * * 1-5', sendReminder); // À 14h du lundi au vendredi
-  schedule.scheduleJob('0 17 * * 1-5', sendReminder); // À 17h du lundi au vendredi
+  schedule.scheduleJob('0 15 * * 1-5', sendReminder); // À 15h du lundi au vendredi
 });
 
 bot.on('messageCreate', (message) => {
