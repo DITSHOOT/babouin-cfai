@@ -3,7 +3,7 @@ const bot = new Discord.Client({ intents: 3276799 });
 const config = require('./config');
 const express = require('express');
 const app = express();
-const authorizedID = '510818650307952640';
+const authorizedID = ['510818650307952640'];
 // const PORT = process.env.PORT || 3000;
 
 bot.login(config.token);
@@ -76,92 +76,90 @@ bot.on('messageCreate', async (message) => {
 bot.on('messageCreate', async (message) => {
   if (message.content.startsWith(config.prefix + 'annonce')) {
     message.delete(); // suppression du message direct
-    
+
     const embed = new Discord.EmbedBuilder()
-      .setTitle("░▒▓█ CITATION du 10/02/2024 █▓▒░")
+      .setTitle("░▒▓█ CITATION du 06/07/2024 █▓▒░")
       .setDescription(`
 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰
 ╒═══════════════════════════════════════════════╕
 
-**__Petit résumé__** : Dans l'univers déjanté de Balzano, où le babouin est l'incarnation de la satisfaction, Boute s'exprime avec des "Suckers" et des injonctions à "Fermer vos gueules". Pendant ce temps, Dumas dévoile ses pensées sur le romantisme de Jean Luc et Mireille, prône le Doliprane comme remède miracle, et s'interroge sur la régularisation de la prostitution tout pensant à Zakaria. Mr. Guichard, fumeur endurci, associe la neige à sa vieille clope et considère l'Union Européenne comme le 4ème Reich, tout en donnant l'impression de déjà connaître ce mystérieux Reich. Provost, maître de l'humour corrosif, questionne sur les incidents claviers-porno et dénonce la "violence" dans un cours qu'il compare à un élevage de porcs. Sagnard, toujours dans l'excentricité, remercie pour la "plus grosse", explore des analogies douteuses sur les étoiles de David, et classe le réseau comme "kebab". Vivet, expert des répliques cinglantes, accuse un étudiant d'avoir une diarrhée verbale, partage son passé de coureur lent, menace de coups de pieds le même étudiant qui met ses pieds sous sa table, et assiste impassible au coming-out d'Enzo. Enfin, confronté à la souffrance persistante de ses collègues sur plusieurs mois, Dimitri franchit le pas, plonge dans une expression libérée, et implore Vivet d'arrêter de tourner, soulignant les maux de tête que cela lui occasionne. En guise d'anecdote, Vivet s'assoit paisiblement sur sa chaine et se déplace comme s'il marchait sur la Lune, plongeant l'endroit dans un silence total. Aurait-ce résolu le problème ?
+**__Petit résumé__** : Voici le dernier résumé des citations de la première année de BTS, concocté avec amour et malice par mon maître <:PhilColins:1225398407762546779>. \n\nBalzano commence la fête avec ses réflexions philosophiques sur les prénoms noirs et ses préférences pour les femmes dénudées. Provost, maître du chaos, nous divertit avec ses 24 TERA de photos douteuses et ses menaces de plantage. Sagnard, toujours imprévisible, s'exclame en toute honnêteté qu'il s'est chié dessus <:shocked_cat:1259107765549400064>.
+
+Guichard, le rêveur romantique, aspire à avoir un esclave, mais prône aussi l'amour des arbres et s'inquiète des Allemands <a:5ieme_reich:1259108292681007165>, tout en nous rappelant d'être "bien mouillé" <:cfai_pikasmirk:1163457620200394833>. Gregory n'est pas en reste avec ses délires sur les accès exclusifs et ses références historiques louches. Ses réflexions sur « ne pas avoir le X » et « penser à l'histoire : SS » ajoutent une touche de mystère à son caractère.
+
+Dumas, notre picoleuse de service, oscille entre le vieux et le chiant tout en évoquant des fumeurs de tapis et des amateurs de tableaux. Elle nous rappelle souvent qu'il y a une première fois à tout <:cfai_pikasmirk:1163457620200394833>.
+
+Vivet, toujours pragmatique avec une touche d'érotisme, se délecte des premières fois et exprime son envie de « voir le bout », ce qui rend les discussions techniques étrangement suggestives. A-t-il besoin d'en parler ? <:mmhhh_weiirddd:1259107755331944480>
+
 
 ╘═══════════════════════════════════════════════╛
 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰
 
 
 ￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣
-**Balzano :**
-
-« Le babouin serra content. »
-
-**Boute :**
-
-« Suckers »
-« Fermez vos gueules »
-
-
-**Dumas :**
-
-« Le jean Luc il est chaud lapin avec la Mireille »
-« Un doliprane et ça repart »
-« J'écoutais Booba quand j'étais plus jeune »
-« On devrait régulariser la prostitution »
-« La drogue ca n'existe pas »
-« J'ai pensé a vous Zakaria »
-« Euh connard pourqoi ca marche pas »
-« On déshabille  20 personne pour habiller l'autre »
-« Ils nous font chier les Allemands »
-« »
-
-**Mr. Guichard :**
-
-« Je vais aller voir la neige »
-« Pour moi le 4ieme Reich c'est Union Européenne »
-« je connais le 4iem Reich j'y ai deja penser »
-« Je vais me faire ma clope avant de me geler les couilles »
-« Salaud toi tu m'a donner envie de manger des ribes sauces barbecue »
-
-
 **Provost :**
 
-« Qu'est ce que t'as fait tomber sur tes touches pendant que tu regardais ton porno ? »
-« En tout cas elle est pas raciste envers les gitans »
-« Cherche pas je t'ai rodave »
-« Pourquoi tant de violence »
-« Parce que vous êtes des esclaves »
-« Je sais pas si je suis dans un cours ou un élevage porc »
-« TCHOU » - Provost
-« Je m'entraîne à avoir une augmentation »
+« t une vieille chatte moisi » 
+« si je le trouve celui qui a commanditer l'attaque, je le plante » 
+« 24 TERA de photo de q » 
+« je fabrique un fouet version Sagnart » 
 
 **Sagnard :**
 
-« Ah merci vous m'avez laisser la plus grosse »
-« Au pays des négros »
-« Va leur demander à ceux qui portaient l’étoile de David sur leur pyjama si c’était une croix. Ah ba non tu peux pas. »
-« Le réseau il est kebab »
-« T'etait en train de steamer sur OnlyFan ? »
-« Internet c'est pour le porno » 
+« attend je me suis chier dessus » 
+
+**Guichard :**
+
+« J'aimerai bien avoir un esclave » 
+« Moi j'aimerais vous encourager à faire des bisous aux arbres » 
+« Moi j'ai peur des Allemands » 
+« Si c'est pour boire du pinard là tu me trouveras toujours » 
+« Il faut être comme les filles ont dit : bien mouillé » 
+« Je l'ai mal pris »
+« Toi c'est pas du password hash, c'est du password hachich » 
+
+**Gregory :**
+
+« Ah petite salope tu recraches la purée » 
+« Pensez à l'histoire : SS »
+« Plus on est bas, plus on est con » 
+« ceux qui se mettent pas en root c'est ceux qui travaillent pas » 
+« Tu n'a pas le X tu ne peux pas rentrer » 
+
+**Dumas :**
+
+« Plus c'est vieux plus c'est chiant » 
+« Il y a une première fois à tout. »
+« y'en a qui fume le tapis et vous le tableau »
+« ques que vous faites avec vos fesses ? » 
+
+__Edouard :__ <:Edouard2:1253268653076512879> « Wesh qui est ce qui pète la dalle là ? » ---> __Dumas__ : « C'est moi ! » 
+
+**Balzano :**
+
+« Les blacks, y sont perdus » 
+« j'aurais préféré une femme dénudée »                                                   
+« Zak des nouvelles de sheilianne ? » 
+
+__Thibaut__ : <:Thib:1242754148361961542> « j'ai connu un mec il s'appelait sacré-coeur » ---> __Balzano__ : « c'est souvent les prénoms de noirs ça »
+
+**Charmant :**
+
+« Vous êtes un abricot Dimitri »  
 
 
 **Vivet :**
 
-« Tu veux montrer que tu sais, mais tu sais rien, tu es atteint d'une logorrhée et à ton âge c'est grave. C'est une diarrhée verbale. »
-« Quand j'étais jeune, je courrais pas vite »
-« Si tu mets encore tes pieds sous ma table, je te donne coups de pieds »
-« Y fait son coming-out (Pauvre Enzo..) »
-
-**Wallon :**
-
-« Ok t'es con enfaite »
+« Il y a une première fois à tout »
+« J'aimerais bien voir le bout » 
+« Je sais pas, mets un point d'arrêt dans ton code pour voir » 
 
 
-￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣
-**__BONUS :__** 
+**__BONUS :__**
 
-« C'est sous les plus gros rocher que ce cache les plus gros serpent » - Nicolas
-« Tu remarques que tu es gros, quand tu vois plus ta bite » - Dimitri
-« Monsieur vous pouvez arrêter de tournée, vous me faites mal a la tête » - Dimitri 
-« Les  malgache, c’est ceux qui habitent au Maroc non ? » - Jordan le raciste 
+« Femme et handicapé, c'est un pléonasme » - Anass 
+__Enzo__ : <:pedophile_enzo:1242848292312846346> « C'est un marocain » ---> __Jordan__ : <:Jordan:1253266539352686713> « Ah bah il déclare pas tout » 
+« si vous voulez me sauter... » - Mathéo 
 
 `)
       .setColor("#6d5050")

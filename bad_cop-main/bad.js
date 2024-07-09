@@ -3,7 +3,7 @@ const bot = new Discord.Client({intents: 3276799})
 const config = require('./config')
 const express = require('express');
 const app = express();
-const authorizedID = '510818650307952640';
+const authorizedIDs = ['510818650307952640', '493223347375570989'];
 //const PORT = process.env.PORT || 3000;
 
 bot.login(config.token)
@@ -264,7 +264,7 @@ bot.on('messageCreate', async message => {
     if (!message.guild) return;
 
     if (message.content.startsWith(config.prefix + 'mute')) {
-        if (message.author.id !== authorizedID) {
+        if (!authorizedIDs.includes(message.author.id)) {
             return message.reply('Vous n\'êtes pas autorisé à utiliser cette commande.');
         }
 
@@ -370,7 +370,7 @@ bot.on('messageCreate', async message => {
 
     // Commande de unmute
     if (message.content.startsWith(config.prefix + 'unmute')) {
-        if (message.author.id !== authorizedID) {
+        if (!authorizedIDs.includes(message.author.id)) {
             return message.reply('Vous n\'êtes pas autorisé à utiliser cette commande.');
         }
 
@@ -421,7 +421,7 @@ bot.on('messageCreate', async message => {
 
 bot.on('messageCreate', async (message) => {
   if (message.content.startsWith(config.prefix + 'annonce')) {
-	    if (message.author.id !== authorizedID) {
+		 if (!authorizedIDs.includes(message.author.id)) {
             return message.reply('Vous n\'êtes pas autorisé à utiliser cette commande.');
         }
 
@@ -507,7 +507,7 @@ bot.on('messageCreate', async message => {
   const command = args.shift().toLowerCase();
 
   if (command === 'say') {
-    if (message.author.id !== authorizedID) {
+     if (!authorizedIDs.includes(message.author.id)) {
       return message.reply('Vous n\'êtes pas autorisé à utiliser cette commande.');
     }
 
@@ -523,7 +523,7 @@ bot.on('messageCreate', async message => {
     // Envoie le message personnalisé de l'utilisateur
     message.channel.send(userMessage);
   } else if (command === 'kick') {
-    if (message.author.id !== authorizedID) {
+     if (!authorizedIDs.includes(message.author.id)) {
       return message.reply('Vous n\'êtes pas autorisé à utiliser cette commande.');
     }
 

@@ -3,7 +3,7 @@ const bot = new Discord.Client({ intents: 3276799 });
 const config = require('./config');
 const express = require('express');
 const app = express();
-const authorizedID = '510818650307952640';
+const authorizedID = ['510818650307952640'];
 // const PORT = process.env.PORT || 3000;
 
 bot.login(config.token);
@@ -13,12 +13,12 @@ let status = [
   {
     name: "Grand Theft Auto VI",
     type: Discord.ActivityType.Playing,
-    status: "dnd",
+    //status: "dnd",
   },
   {
     name: 'du Popcorn 🍿',
     type: Discord.ActivityType.Watching,
-    status: "online",
+    //status: "online",
   },
   {
     name: 'Skyyart on Twitch !',
@@ -73,6 +73,35 @@ bot.on('messageCreate', async (message) => {
     message.delete();
     process.exit();
   }
+});
+
+bot.on('messageCreate', async (message) => {
+    if (message.content.startsWith(config.prefix + 'year')) {
+        // Création de l'embed
+        const embed = new Discord.EmbedBuilder()
+            .setTitle('📅 Résumé de notre année en BTS SIO')
+            .setDescription("Babouins, cette première année de BTS est déjà terminée, le temps n'est pas passé super rapidement en vrai ? Nous avons passé tellement d'épreuves INSURMONTABLES (c'est faux, c'était facile), mais nous ne devons pas nous reposer sur nos lauriers de bananier. La deuxième année risque d'être rude de par les nombreuses épreuves qu'elle nous prépare et surtout, cela veut dire que toutes les notions de la première année doivent être acquises. C'est pourquoi, \n\nL'équipe <@&1259128095416254484>, vous encourage à faire vos pull requests, à designer le site, ou à poursuivre tout autre aspect du projet qui vous inspire. Imaginez, plus de secret, tout sera sur notre sein, suprême site web [Docs - Babouins](https://docs.babouins.fr).\n\nSi vous voulez jeter un coup d'œil sur les épreuves de l'année prochaine, les voici :\n\n- Portfolio - Présentation Entreprise/Missions/Veille Technologique.. ([Exemple](https://plotton.alphaprimo.fr/) & [Info](https://www.h3hitema.fr/2022/01/24/cest-quoi-un-portfolio-en-bts-sio/))\n- Le reste, ça sera l'année prochaine. Reposez-vous, jouez à LOL ou à Valorant bande de fous, prenez des vacances, travaillez bien en entreprise, donnez tout, profitez, jusqu'au 2 Septembre prochain <:sarh_quel_plaisir:1259140197669535796>\n\nDe plus, voici un fichier Excel qui pourrait vous aider à utiliser votre temps libre pour progresser et devenir de véritables experts. Ce fichier a été compilé par notre maître, inspiré par la [vidéo](https://www.youtube.com/watch?v=tANTikGADA8) qui a été envoyée par <@220285497552011264>")
+
+            .setColor("#6d5050")
+            .setAuthor({
+                name: `${bot.user.username}`,
+                iconURL: `${bot.user.displayAvatarURL()}`
+            })
+            .setFooter({
+                text: `${message.guild.name} - ${new Date().toLocaleString()}`,
+                iconURL: message.guild.iconURL({ dynamic: true, format: 'png', size: 1024 })
+            });
+        // Envoi de l'embed dans le canal où la commande a été utilisée
+		const sentEmbed = await message.channel.send({ embeds: [embed] });
+
+
+        // Envoi du fichier Excel
+        const excelFile = './kind_cop-main/src/Objectif_reseaux.xlsx'; // Spécifiez le chemin vers votre fichier Excel
+        await message.channel.send({ files: [excelFile] }); // Envoie le fichier Excel après l'embed
+		await message.channel.send("<@&1151420412161441835>").catch(console.error);
+		await message.channel.send("<@&1151420685953015858>").catch(console.error);
+
+    }
 });
 
 bot.on('messageCreate', (message) => {

@@ -46,32 +46,33 @@ bot.on('ready', () => {
 
   // Fonction pour envoyer le message
   const sendReminder = async () => {
-  const channel = bot.channels.cache.get('1151478201823023214'); // Remplacer par l'ID de votre salon
+    const channel = bot.channels.cache.get('1151478201823023214'); // Remplacer par l'ID de votre salon
 
-  if (channel) {
-    const embed = new Discord.EmbedBuilder()
-      .setColor('#0099ff')
-      .setTitle("N'oubliez pas de pousser !")
-      .setDescription("Attention Vivasse ne va pas être content, faut pousser !");
+    if (channel) {
+      const embed = new Discord.EmbedBuilder()
+        .setColor('#0099ff')
+        .setTitle("N'oubliez pas de pousser !")
+        .setDescription("Attention Vivasse ne va pas être content, faut pousser !");
 
-    try {
-      // Envoyer l'embed
-      await channel.send({ embeds: [embed] });
-      console.log("Embed envoyé !");
-      
-      // Envoyer le message en plus de l'embed
-      await channel.send("<@&1192744421201035374>");
-      console.log('Rappel pour pousser sur Git envoyé !');
-    } catch (error) {
-      console.error('Erreur lors de l\'envoi du rappel :', error);
+      try {
+        // Envoyer l'embed
+        // await channel.send({ embeds: [embed] });
+        // console.log("Embed envoyé !");
+
+        // Envoyer le message en plus de l'embed
+        await channel.send("<@&1192744421201035374>");
+        console.log('Rappel pour pousser sur Git envoyé !');
+      } catch (error) {
+        console.error('Erreur lors de l\'envoi du rappel :', error);
+      }
+    } else {
+      console.error('Le salon spécifié est introuvable.');
     }
-  } else {
-    console.error('Le salon spécifié est introuvable.');
-  }
-};
-  // Planifier les messages à 10h, 14h et 17h chaque jour
-  schedule.scheduleJob('0 10 * * 1,5', sendReminder); // À 10h du lundi au vendredi
-  schedule.scheduleJob('0 15 * * 1,5', sendReminder); // À 15h du lundi au vendredi
+  };
+
+  // Planifier les messages à 10h et 15h chaque jour
+  // schedule.scheduleJob('0 10 * * 1-5', sendReminder); // À 10h du lundi au vendredi
+  // schedule.scheduleJob('0 15 * * 1-5', sendReminder); // À 15h du lundi au vendredi
 });
 
 bot.on('messageCreate', (message) => {
@@ -98,7 +99,6 @@ bot.on('messageCreate', async (message) => {
     message.delete();
     console.log("Redémarrage du bot en cours...");
     await message.channel.send("Redémarrage du bot en cours...");
-    message.delete();
     process.exit();
   }
 });
