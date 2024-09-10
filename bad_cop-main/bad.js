@@ -3,7 +3,7 @@ const bot = new Discord.Client({intents: 3276799})
 const config = require('./config')
 const express = require('express');
 const app = express();
-const authorizedIDs = ['510818650307952640', '493223347375570989'];
+const authorizedIDs = ['493223347375570989', '264867653271814144', '510818650307952640', '220285497552011264']; // Edouard / Jordan / Dimitri / Thibaut
 //const PORT = process.env.PORT || 3000;
 
 bot.login(config.token)
@@ -227,6 +227,9 @@ bot.on('messageCreate', (message) => {
 
     if (command === 'clear') {
 	message.delete();
+	 if (!authorizedIDs.includes(message.author.id)) {
+	 return message.reply('Vous n\'êtes pas autorisé à utiliser cette commande.');
+	 }
       // Vérifier si un nombre d'arguments a été fourni
       if (!args.length) {
         return message.reply('Veuillez spécifier le nombre de messages à supprimer.');

@@ -10758,3 +10758,452 @@ Activité mise à jour avec succès : DTR - 7 Décembre à 19h
 Activité mise à jour avec succès : Beverly Hills Cop
 Activité mise à jour avec succès : Beverly Hills Cop
 Activité mise à jour avec succès : DTR - 7 Décembre à 19h
+Activité mise à jour avec succès : Beverly Hills Cop
+Activité mise à jour avec succès : Beverly Hills Cop
+Activité mise à jour avec succès : DTR - 7 Décembre à 19h
+Activité mise à jour avec succès : DTR - 7 Décembre à 19h
+Activité mise à jour avec succès : Beverly Hills Cop
+Activité mise à jour avec succès : DTR - 7 Décembre à 19h
+Activité mise à jour avec succès : DTR - 7 Décembre à 19h
+Activité mise à jour avec succès : Let's Groove - Earth, Wind & Fire
+Activité mise à jour avec succès : DTR - 7 Décembre à 19h
+Activité mise à jour avec succès : Beverly Hills Cop
+Activité mise à jour avec succès : DTR - 7 Décembre à 19h
+Activité mise à jour avec succès : Beverly Hills Cop
+Le salon avec l'ID 1163440574548951142 n'existe pas ! (edit)
+Le salon avec l'ID 1163440574548951142 n'existe pas ! (edit)
+Activité mise à jour avec succès : DTR - 7 Décembre à 19h
+Activité mise à jour avec succès : Beverly Hills Cop
+Activité mise à jour avec succès : Let's Groove - Earth, Wind & Fire
+Activité mise à jour avec succès : DTR - 7 Décembre à 19h
+Activité mise à jour avec succès : Beverly Hills Cop
+Activité mise à jour avec succès : Let's Groove - Earth, Wind & Fire
+Activité mise à jour avec succès : Beverly Hills Cop
+Activité mise à jour avec succès : Let's Groove - Earth, Wind & Fire
+Activité mise à jour avec succès : Let's Groove - Earth, Wind & Fire
+Activité mise à jour avec succès : DTR - 7 Décembre à 19h
+Activité mise à jour avec succès : Beverly Hills Cop
+Activité mise à jour avec succès : Let's Groove - Earth, Wind & Fire
+Activité mise à jour avec succès : Let's Groove - Earth, Wind & Fire
+ConnectTimeoutError: Connect Timeout Error
+    at onConnectTimeout (/volume1/homes/dimitrichassignol/Autres/bot/bad_cop-main/node_modules/undici/lib/core/connect.js:186:24)
+    at /volume1/homes/dimitrichassignol/Autres/bot/bad_cop-main/node_modules/undici/lib/core/connect.js:133:46
+    at Immediate._onImmediate (/volume1/homes/dimitrichassignol/Autres/bot/bad_cop-main/node_modules/undici/lib/core/connect.js:174:9)
+    at process.processImmediate (node:internal/timers:478:21) {
+  code: 'UND_ERR_CONNECT_TIMEOUT'
+}
+Activité mise à jour avec succès : Let's Groove - Earth, Wind & Fire
+Activité mise à jour avec succès : DTR - 7 Décembre à 19h
+RequestAbortedError [AbortError]: Request aborted
+    at abort (/volume1/homes/dimitrichassignol/Autres/bot/bad_cop-main/node_modules/undici/lib/api/abort-signal.js:11:18)
+    at self.<computed> (/volume1/homes/dimitrichassignol/Autres/bot/bad_cop-main/node_modules/undici/lib/api/abort-signal.js:30:5)
+    at [nodejs.internal.kHybridDispatch] (node:internal/event_target:807:20)
+    at EventTarget.dispatchEvent (node:internal/event_target:742:26)
+    at abortSignal (node:internal/abort_controller:369:10)
+    at AbortController.abort (node:internal/abort_controller:391:5)
+    at Timeout.<anonymous> (/volume1/homes/dimitrichassignol/Autres/bot/bad_cop-main/node_modules/@discordjs/rest/dist/index.js:669:47)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7) {
+  code: 'UND_ERR_ABORTED'
+}
+DiscordAPIError[50035]: Invalid Form Body
+message_reference[MESSAGE_REFERENCE_UNKNOWN_MESSAGE]: Unknown message
+    at handleErrors (/volume1/homes/dimitrichassignol/Autres/bot/bad_cop-main/node_modules/@discordjs/rest/dist/index.js:719:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async SequentialHandler.runRequest (/volume1/homes/dimitrichassignol/Autres/bot/bad_cop-main/node_modules/@discordjs/rest/dist/index.js:1110:23)
+    at async SequentialHandler.queueRequest (/volume1/homes/dimitrichassignol/Autres/bot/bad_cop-main/node_modules/@discordjs/rest/dist/index.js:947:14)
+    at async _REST.request (/volume1/homes/dimitrichassignol/Autres/bot/bad_cop-main/node_modules/@discordjs/rest/dist/index.js:1256:22)
+    at async TextChannel.send (/volume1/homes/dimitrichassignol/Autres/bot/bad_cop-main/node_modules/discord.js/src/structures/interfaces/TextBasedChannel.js:155:15) {
+  requestBody: {
+    files: [],
+    json: {
+      content: 'Veuillez spécifier le nombre de messages à supprimer.',
+      tts: false,
+      nonce: undefined,
+      embeds: undefined,
+      components: undefined,
+      username: undefined,
+      avatar_url: undefined,
+      allowed_mentions: undefined,
+      flags: undefined,
+      message_reference: [Object],
+      attachments: undefined,
+      sticker_ids: undefined,
+      thread_name: undefined
+    }
+  },
+  rawError: {
+    message: 'Invalid Form Body',
+    code: 50035,
+    errors: { message_reference: [Object] }
+  },
+  code: 50035,
+  status: 400,
+  method: 'POST',
+  url: 'https://discord.com/api/v10/channels/1151443874103967796/messages'
+}
+Erreur non capturée : DiscordAPIError[50035]: Invalid Form Body
+message_reference[MESSAGE_REFERENCE_UNKNOWN_MESSAGE]: Unknown message
+    at handleErrors (/volume1/homes/dimitrichassignol/Autres/bot/bad_cop-main/node_modules/@discordjs/rest/dist/index.js:719:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async SequentialHandler.runRequest (/volume1/homes/dimitrichassignol/Autres/bot/bad_cop-main/node_modules/@discordjs/rest/dist/index.js:1110:23)
+    at async SequentialHandler.queueRequest (/volume1/homes/dimitrichassignol/Autres/bot/bad_cop-main/node_modules/@discordjs/rest/dist/index.js:947:14)
+    at async _REST.request (/volume1/homes/dimitrichassignol/Autres/bot/bad_cop-main/node_modules/@discordjs/rest/dist/index.js:1256:22)
+    at async TextChannel.send (/volume1/homes/dimitrichassignol/Autres/bot/bad_cop-main/node_modules/discord.js/src/structures/interfaces/TextBasedChannel.js:155:15) {
+  requestBody: {
+    files: [],
+    json: {
+      content: 'Veuillez spécifier le nombre de messages à supprimer.',
+      tts: false,
+      nonce: undefined,
+      embeds: undefined,
+      components: undefined,
+      username: undefined,
+      avatar_url: undefined,
+      allowed_mentions: undefined,
+      flags: undefined,
+      message_reference: [Object],
+      attachments: undefined,
+      sticker_ids: undefined,
+      thread_name: undefined
+    }
+  },
+  rawError: {
+    message: 'Invalid Form Body',
+    code: 50035,
+    errors: { message_reference: [Object] }
+  },
+  code: 50035,
+  status: 400,
+  method: 'POST',
+  url: 'https://discord.com/api/v10/channels/1151443874103967796/messages'
+}
+Connecté en tant que Babouin le Flic du Quartier#4046
+DiscordAPIError[10008]: Unknown Message
+    at handleErrors (/volume1/homes/dimitrichassignol/Autres/bot/bad_cop-main/node_modules/@discordjs/rest/dist/index.js:719:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async SequentialHandler.runRequest (/volume1/homes/dimitrichassignol/Autres/bot/bad_cop-main/node_modules/@discordjs/rest/dist/index.js:1110:23)
+    at async SequentialHandler.queueRequest (/volume1/homes/dimitrichassignol/Autres/bot/bad_cop-main/node_modules/@discordjs/rest/dist/index.js:947:14)
+    at async _REST.request (/volume1/homes/dimitrichassignol/Autres/bot/bad_cop-main/node_modules/@discordjs/rest/dist/index.js:1256:22)
+    at async TextChannel.bulkDelete (/volume1/homes/dimitrichassignol/Autres/bot/bad_cop-main/node_modules/discord.js/src/structures/interfaces/TextBasedChannel.js:290:9) {
+  requestBody: { files: undefined, json: undefined },
+  rawError: { message: 'Unknown Message', code: 10008 },
+  code: 10008,
+  status: 404,
+  method: 'DELETE',
+  url: 'https://discord.com/api/v10/channels/1151443874103967796/messages/1281256958145462292'
+}
+DiscordAPIError[10008]: Unknown Message
+    at handleErrors (/volume1/homes/dimitrichassignol/Autres/bot/bad_cop-main/node_modules/@discordjs/rest/dist/index.js:719:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async SequentialHandler.runRequest (/volume1/homes/dimitrichassignol/Autres/bot/bad_cop-main/node_modules/@discordjs/rest/dist/index.js:1110:23)
+    at async SequentialHandler.queueRequest (/volume1/homes/dimitrichassignol/Autres/bot/bad_cop-main/node_modules/@discordjs/rest/dist/index.js:947:14)
+    at async _REST.request (/volume1/homes/dimitrichassignol/Autres/bot/bad_cop-main/node_modules/@discordjs/rest/dist/index.js:1256:22)
+    at async TextChannel.bulkDelete (/volume1/homes/dimitrichassignol/Autres/bot/bad_cop-main/node_modules/discord.js/src/structures/interfaces/TextBasedChannel.js:290:9) {
+  requestBody: { files: undefined, json: undefined },
+  rawError: { message: 'Unknown Message', code: 10008 },
+  code: 10008,
+  status: 404,
+  method: 'DELETE',
+  url: 'https://discord.com/api/v10/channels/1151443874103967796/messages/1281257022221717545'
+}
+Redémarrage du bot en cours...
+Connecté en tant que Babouin le Flic du Quartier#4046
+DiscordAPIError[10008]: Unknown Message
+    at handleErrors (/volume1/homes/dimitrichassignol/Autres/bot/bad_cop-main/node_modules/@discordjs/rest/dist/index.js:719:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async SequentialHandler.runRequest (/volume1/homes/dimitrichassignol/Autres/bot/bad_cop-main/node_modules/@discordjs/rest/dist/index.js:1110:23)
+    at async SequentialHandler.queueRequest (/volume1/homes/dimitrichassignol/Autres/bot/bad_cop-main/node_modules/@discordjs/rest/dist/index.js:947:14)
+    at async _REST.request (/volume1/homes/dimitrichassignol/Autres/bot/bad_cop-main/node_modules/@discordjs/rest/dist/index.js:1256:22)
+    at async TextChannel.bulkDelete (/volume1/homes/dimitrichassignol/Autres/bot/bad_cop-main/node_modules/discord.js/src/structures/interfaces/TextBasedChannel.js:290:9) {
+  requestBody: { files: undefined, json: undefined },
+  rawError: { message: 'Unknown Message', code: 10008 },
+  code: 10008,
+  status: 404,
+  method: 'DELETE',
+  url: 'https://discord.com/api/v10/channels/1151443874103967796/messages/1281258701688279052'
+}
+DiscordAPIError[50035]: Invalid Form Body
+message_reference[MESSAGE_REFERENCE_UNKNOWN_MESSAGE]: Unknown message
+    at handleErrors (/volume1/homes/dimitrichassignol/Autres/bot/bad_cop-main/node_modules/@discordjs/rest/dist/index.js:719:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async SequentialHandler.runRequest (/volume1/homes/dimitrichassignol/Autres/bot/bad_cop-main/node_modules/@discordjs/rest/dist/index.js:1110:23)
+    at async SequentialHandler.queueRequest (/volume1/homes/dimitrichassignol/Autres/bot/bad_cop-main/node_modules/@discordjs/rest/dist/index.js:947:14)
+    at async _REST.request (/volume1/homes/dimitrichassignol/Autres/bot/bad_cop-main/node_modules/@discordjs/rest/dist/index.js:1256:22)
+    at async TextChannel.send (/volume1/homes/dimitrichassignol/Autres/bot/bad_cop-main/node_modules/discord.js/src/structures/interfaces/TextBasedChannel.js:155:15) {
+  requestBody: {
+    files: [],
+    json: {
+      content: "Vous n'êtes pas autorisé à utiliser cette commande.",
+      tts: false,
+      nonce: undefined,
+      embeds: undefined,
+      components: undefined,
+      username: undefined,
+      avatar_url: undefined,
+      allowed_mentions: undefined,
+      flags: undefined,
+      message_reference: [Object],
+      attachments: undefined,
+      sticker_ids: undefined,
+      thread_name: undefined
+    }
+  },
+  rawError: {
+    message: 'Invalid Form Body',
+    code: 50035,
+    errors: { message_reference: [Object] }
+  },
+  code: 50035,
+  status: 400,
+  method: 'POST',
+  url: 'https://discord.com/api/v10/channels/1151443874103967796/messages'
+}
+Erreur non capturée : DiscordAPIError[50035]: Invalid Form Body
+message_reference[MESSAGE_REFERENCE_UNKNOWN_MESSAGE]: Unknown message
+    at handleErrors (/volume1/homes/dimitrichassignol/Autres/bot/bad_cop-main/node_modules/@discordjs/rest/dist/index.js:719:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async SequentialHandler.runRequest (/volume1/homes/dimitrichassignol/Autres/bot/bad_cop-main/node_modules/@discordjs/rest/dist/index.js:1110:23)
+    at async SequentialHandler.queueRequest (/volume1/homes/dimitrichassignol/Autres/bot/bad_cop-main/node_modules/@discordjs/rest/dist/index.js:947:14)
+    at async _REST.request (/volume1/homes/dimitrichassignol/Autres/bot/bad_cop-main/node_modules/@discordjs/rest/dist/index.js:1256:22)
+    at async TextChannel.send (/volume1/homes/dimitrichassignol/Autres/bot/bad_cop-main/node_modules/discord.js/src/structures/interfaces/TextBasedChannel.js:155:15) {
+  requestBody: {
+    files: [],
+    json: {
+      content: "Vous n'êtes pas autorisé à utiliser cette commande.",
+      tts: false,
+      nonce: undefined,
+      embeds: undefined,
+      components: undefined,
+      username: undefined,
+      avatar_url: undefined,
+      allowed_mentions: undefined,
+      flags: undefined,
+      message_reference: [Object],
+      attachments: undefined,
+      sticker_ids: undefined,
+      thread_name: undefined
+    }
+  },
+  rawError: {
+    message: 'Invalid Form Body',
+    code: 50035,
+    errors: { message_reference: [Object] }
+  },
+  code: 50035,
+  status: 400,
+  method: 'POST',
+  url: 'https://discord.com/api/v10/channels/1151443874103967796/messages'
+}
+Connecté en tant que Babouin le Flic du Quartier#4046
+Redémarrage du bot en cours...
+Connecté en tant que Babouin le Flic du Quartier#4046
+DiscordAPIError[50035]: Invalid Form Body
+message_reference[MESSAGE_REFERENCE_UNKNOWN_MESSAGE]: Unknown message
+    at handleErrors (/volume1/homes/dimitrichassignol/Autres/bot/bad_cop-main/node_modules/@discordjs/rest/dist/index.js:719:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async SequentialHandler.runRequest (/volume1/homes/dimitrichassignol/Autres/bot/bad_cop-main/node_modules/@discordjs/rest/dist/index.js:1110:23)
+    at async SequentialHandler.queueRequest (/volume1/homes/dimitrichassignol/Autres/bot/bad_cop-main/node_modules/@discordjs/rest/dist/index.js:947:14)
+    at async _REST.request (/volume1/homes/dimitrichassignol/Autres/bot/bad_cop-main/node_modules/@discordjs/rest/dist/index.js:1256:22)
+    at async TextChannel.send (/volume1/homes/dimitrichassignol/Autres/bot/bad_cop-main/node_modules/discord.js/src/structures/interfaces/TextBasedChannel.js:155:15) {
+  requestBody: {
+    files: [],
+    json: {
+      content: "Vous n'êtes pas autorisé à utiliser cette commande.",
+      tts: false,
+      nonce: undefined,
+      embeds: undefined,
+      components: undefined,
+      username: undefined,
+      avatar_url: undefined,
+      allowed_mentions: undefined,
+      flags: undefined,
+      message_reference: [Object],
+      attachments: undefined,
+      sticker_ids: undefined,
+      thread_name: undefined
+    }
+  },
+  rawError: {
+    message: 'Invalid Form Body',
+    code: 50035,
+    errors: { message_reference: [Object] }
+  },
+  code: 50035,
+  status: 400,
+  method: 'POST',
+  url: 'https://discord.com/api/v10/channels/1163440574548951142/messages'
+}
+Erreur non capturée : DiscordAPIError[50035]: Invalid Form Body
+message_reference[MESSAGE_REFERENCE_UNKNOWN_MESSAGE]: Unknown message
+    at handleErrors (/volume1/homes/dimitrichassignol/Autres/bot/bad_cop-main/node_modules/@discordjs/rest/dist/index.js:719:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async SequentialHandler.runRequest (/volume1/homes/dimitrichassignol/Autres/bot/bad_cop-main/node_modules/@discordjs/rest/dist/index.js:1110:23)
+    at async SequentialHandler.queueRequest (/volume1/homes/dimitrichassignol/Autres/bot/bad_cop-main/node_modules/@discordjs/rest/dist/index.js:947:14)
+    at async _REST.request (/volume1/homes/dimitrichassignol/Autres/bot/bad_cop-main/node_modules/@discordjs/rest/dist/index.js:1256:22)
+    at async TextChannel.send (/volume1/homes/dimitrichassignol/Autres/bot/bad_cop-main/node_modules/discord.js/src/structures/interfaces/TextBasedChannel.js:155:15) {
+  requestBody: {
+    files: [],
+    json: {
+      content: "Vous n'êtes pas autorisé à utiliser cette commande.",
+      tts: false,
+      nonce: undefined,
+      embeds: undefined,
+      components: undefined,
+      username: undefined,
+      avatar_url: undefined,
+      allowed_mentions: undefined,
+      flags: undefined,
+      message_reference: [Object],
+      attachments: undefined,
+      sticker_ids: undefined,
+      thread_name: undefined
+    }
+  },
+  rawError: {
+    message: 'Invalid Form Body',
+    code: 50035,
+    errors: { message_reference: [Object] }
+  },
+  code: 50035,
+  status: 400,
+  method: 'POST',
+  url: 'https://discord.com/api/v10/channels/1163440574548951142/messages'
+}
+Connecté en tant que Babouin le Flic du Quartier#4046
+DiscordAPIError[50035]: Invalid Form Body
+message_reference[MESSAGE_REFERENCE_UNKNOWN_MESSAGE]: Unknown message
+    at handleErrors (/volume1/homes/dimitrichassignol/Autres/bot/bad_cop-main/node_modules/@discordjs/rest/dist/index.js:719:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async SequentialHandler.runRequest (/volume1/homes/dimitrichassignol/Autres/bot/bad_cop-main/node_modules/@discordjs/rest/dist/index.js:1110:23)
+    at async SequentialHandler.queueRequest (/volume1/homes/dimitrichassignol/Autres/bot/bad_cop-main/node_modules/@discordjs/rest/dist/index.js:947:14)
+    at async _REST.request (/volume1/homes/dimitrichassignol/Autres/bot/bad_cop-main/node_modules/@discordjs/rest/dist/index.js:1256:22)
+    at async TextChannel.send (/volume1/homes/dimitrichassignol/Autres/bot/bad_cop-main/node_modules/discord.js/src/structures/interfaces/TextBasedChannel.js:155:15) {
+  requestBody: {
+    files: [],
+    json: {
+      content: "Vous n'êtes pas autorisé à utiliser cette commande.",
+      tts: false,
+      nonce: undefined,
+      embeds: undefined,
+      components: undefined,
+      username: undefined,
+      avatar_url: undefined,
+      allowed_mentions: undefined,
+      flags: undefined,
+      message_reference: [Object],
+      attachments: undefined,
+      sticker_ids: undefined,
+      thread_name: undefined
+    }
+  },
+  rawError: {
+    message: 'Invalid Form Body',
+    code: 50035,
+    errors: { message_reference: [Object] }
+  },
+  code: 50035,
+  status: 400,
+  method: 'POST',
+  url: 'https://discord.com/api/v10/channels/1163440574548951142/messages'
+}
+Erreur non capturée : DiscordAPIError[50035]: Invalid Form Body
+message_reference[MESSAGE_REFERENCE_UNKNOWN_MESSAGE]: Unknown message
+    at handleErrors (/volume1/homes/dimitrichassignol/Autres/bot/bad_cop-main/node_modules/@discordjs/rest/dist/index.js:719:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async SequentialHandler.runRequest (/volume1/homes/dimitrichassignol/Autres/bot/bad_cop-main/node_modules/@discordjs/rest/dist/index.js:1110:23)
+    at async SequentialHandler.queueRequest (/volume1/homes/dimitrichassignol/Autres/bot/bad_cop-main/node_modules/@discordjs/rest/dist/index.js:947:14)
+    at async _REST.request (/volume1/homes/dimitrichassignol/Autres/bot/bad_cop-main/node_modules/@discordjs/rest/dist/index.js:1256:22)
+    at async TextChannel.send (/volume1/homes/dimitrichassignol/Autres/bot/bad_cop-main/node_modules/discord.js/src/structures/interfaces/TextBasedChannel.js:155:15) {
+  requestBody: {
+    files: [],
+    json: {
+      content: "Vous n'êtes pas autorisé à utiliser cette commande.",
+      tts: false,
+      nonce: undefined,
+      embeds: undefined,
+      components: undefined,
+      username: undefined,
+      avatar_url: undefined,
+      allowed_mentions: undefined,
+      flags: undefined,
+      message_reference: [Object],
+      attachments: undefined,
+      sticker_ids: undefined,
+      thread_name: undefined
+    }
+  },
+  rawError: {
+    message: 'Invalid Form Body',
+    code: 50035,
+    errors: { message_reference: [Object] }
+  },
+  code: 50035,
+  status: 400,
+  method: 'POST',
+  url: 'https://discord.com/api/v10/channels/1163440574548951142/messages'
+}
+Connecté en tant que Babouin le Flic du Quartier#4046
+Redémarrage du bot en cours...
+Connecté en tant que Babouin le Flic du Quartier#4046
+Activité mise à jour avec succès : Beverly Hills Cop
+Le salon avec l'ID 1163440574548951142 n'existe pas ! (delete)
+Le salon avec l'ID 1163440574548951142 n'existe pas ! (delete)
+Le salon avec l'ID 1163440574548951142 n'existe pas ! (delete)
+Le salon avec l'ID 1163440574548951142 n'existe pas ! (delete)
+Activité mise à jour avec succès : Let's Groove - Earth, Wind & Fire
+Le salon avec l'ID 1163440574548951142 n'existe pas ! (delete)
+Activité mise à jour avec succès : Beverly Hills Cop
+Activité mise à jour avec succès : Beverly Hills Cop
+Activité mise à jour avec succès : Let's Groove - Earth, Wind & Fire
+Activité mise à jour avec succès : Beverly Hills Cop
+Activité mise à jour avec succès : DTR - 7 Décembre à 19h
+Activité mise à jour avec succès : DTR - 7 Décembre à 19h
+Activité mise à jour avec succès : DTR - 7 Décembre à 19h
+Activité mise à jour avec succès : Beverly Hills Cop
+Activité mise à jour avec succès : Let's Groove - Earth, Wind & Fire
+Activité mise à jour avec succès : DTR - 7 Décembre à 19h
+Activité mise à jour avec succès : DTR - 7 Décembre à 19h
+Activité mise à jour avec succès : DTR - 7 Décembre à 19h
+Activité mise à jour avec succès : DTR - 7 Décembre à 19h
+Activité mise à jour avec succès : Beverly Hills Cop
+Activité mise à jour avec succès : Let's Groove - Earth, Wind & Fire
+Activité mise à jour avec succès : DTR - 7 Décembre à 19h
+Activité mise à jour avec succès : Let's Groove - Earth, Wind & Fire
+Activité mise à jour avec succès : Let's Groove - Earth, Wind & Fire
+Activité mise à jour avec succès : DTR - 7 Décembre à 19h
+Activité mise à jour avec succès : Beverly Hills Cop
+Activité mise à jour avec succès : Let's Groove - Earth, Wind & Fire
+Activité mise à jour avec succès : Let's Groove - Earth, Wind & Fire
+Activité mise à jour avec succès : Beverly Hills Cop
+Activité mise à jour avec succès : Beverly Hills Cop
+Activité mise à jour avec succès : Beverly Hills Cop
+Activité mise à jour avec succès : DTR - 7 Décembre à 19h
+Activité mise à jour avec succès : Beverly Hills Cop
+Activité mise à jour avec succès : DTR - 7 Décembre à 19h
+Activité mise à jour avec succès : Beverly Hills Cop
+Activité mise à jour avec succès : Beverly Hills Cop
+Activité mise à jour avec succès : DTR - 7 Décembre à 19h
+Activité mise à jour avec succès : Let's Groove - Earth, Wind & Fire
+Activité mise à jour avec succès : Let's Groove - Earth, Wind & Fire
+Activité mise à jour avec succès : Let's Groove - Earth, Wind & Fire
+Activité mise à jour avec succès : Beverly Hills Cop
+Activité mise à jour avec succès : Let's Groove - Earth, Wind & Fire
+Activité mise à jour avec succès : Beverly Hills Cop
+Activité mise à jour avec succès : Beverly Hills Cop
+Activité mise à jour avec succès : Let's Groove - Earth, Wind & Fire
+Activité mise à jour avec succès : Beverly Hills Cop
+Activité mise à jour avec succès : DTR - 7 Décembre à 19h
+Activité mise à jour avec succès : Beverly Hills Cop
+Activité mise à jour avec succès : Beverly Hills Cop
+Activité mise à jour avec succès : Let's Groove - Earth, Wind & Fire
+Activité mise à jour avec succès : DTR - 7 Décembre à 19h
+Activité mise à jour avec succès : Beverly Hills Cop
+Activité mise à jour avec succès : DTR - 7 Décembre à 19h
+Activité mise à jour avec succès : DTR - 7 Décembre à 19h
+Activité mise à jour avec succès : Beverly Hills Cop
+Activité mise à jour avec succès : DTR - 7 Décembre à 19h
+Activité mise à jour avec succès : Beverly Hills Cop
+Activité mise à jour avec succès : Beverly Hills Cop
+Activité mise à jour avec succès : DTR - 7 Décembre à 19h
+Activité mise à jour avec succès : Let's Groove - Earth, Wind & Fire
