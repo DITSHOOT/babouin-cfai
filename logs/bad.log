@@ -11458,3 +11458,119 @@ Activité mise à jour avec succès : DTR - 7 Décembre à 19h
 Activité mise à jour avec succès : Let's Groove - Earth, Wind & Fire
 Activité mise à jour avec succès : Beverly Hills Cop
 Activité mise à jour avec succès : Beverly Hills Cop
+Activité mise à jour avec succès : Beverly Hills Cop
+Activité mise à jour avec succès : Let's Groove - Earth, Wind & Fire
+Activité mise à jour avec succès : Beverly Hills Cop
+Activité mise à jour avec succès : Beverly Hills Cop
+Activité mise à jour avec succès : Let's Groove - Earth, Wind & Fire
+Activité mise à jour avec succès : DTR - 7 Décembre à 19h
+Activité mise à jour avec succès : Beverly Hills Cop
+Activité mise à jour avec succès : DTR - 7 Décembre à 19h
+Activité mise à jour avec succès : Beverly Hills Cop
+Activité mise à jour avec succès : DTR - 7 Décembre à 19h
+Activité mise à jour avec succès : DTR - 7 Décembre à 19h
+Le salon avec l'ID 1163440574548951142 n'existe pas ! (delete)
+Le salon avec l'ID 1163440574548951142 n'existe pas ! (delete)
+Activité mise à jour avec succès : DTR - 7 Décembre à 19h
+Activité mise à jour avec succès : Beverly Hills Cop
+Activité mise à jour avec succès : Let's Groove - Earth, Wind & Fire
+Activité mise à jour avec succès : DTR - 7 Décembre à 19h
+Activité mise à jour avec succès : DTR - 7 Décembre à 19h
+Activité mise à jour avec succès : DTR - 7 Décembre à 19h
+Activité mise à jour avec succès : Let's Groove - Earth, Wind & Fire
+Activité mise à jour avec succès : DTR - 7 Décembre à 19h
+Activité mise à jour avec succès : Let's Groove - Earth, Wind & Fire
+Activité mise à jour avec succès : Let's Groove - Earth, Wind & Fire
+Activité mise à jour avec succès : Beverly Hills Cop
+Activité mise à jour avec succès : Beverly Hills Cop
+Redémarrage du bot en cours...
+Connecté en tant que Babouin le Flic du Quartier#4046
+Connecté en tant que Babouin le Flic du Quartier#4046
+Activité mise à jour avec succès : Beverly Hills Cop
+Activité mise à jour avec succès : DTR - 7 Décembre à 19h
+DiscordAPIError[10008]: Unknown Message
+    at handleErrors (/volume1/homes/dimitrichassignol/Autres/bot/bad_cop-main/node_modules/@discordjs/rest/dist/index.js:719:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async SequentialHandler.runRequest (/volume1/homes/dimitrichassignol/Autres/bot/bad_cop-main/node_modules/@discordjs/rest/dist/index.js:1110:23)
+    at async SequentialHandler.queueRequest (/volume1/homes/dimitrichassignol/Autres/bot/bad_cop-main/node_modules/@discordjs/rest/dist/index.js:947:14)
+    at async _REST.request (/volume1/homes/dimitrichassignol/Autres/bot/bad_cop-main/node_modules/@discordjs/rest/dist/index.js:1256:22)
+    at async GuildMessageManager.delete (/volume1/homes/dimitrichassignol/Autres/bot/bad_cop-main/node_modules/discord.js/src/managers/MessageManager.js:266:5)
+    at async Message.delete (/volume1/homes/dimitrichassignol/Autres/bot/bad_cop-main/node_modules/discord.js/src/structures/Message.js:829:5) {
+  requestBody: { files: undefined, json: undefined },
+  rawError: { message: 'Unknown Message', code: 10008 },
+  code: 10008,
+  status: 404,
+  method: 'DELETE',
+  url: 'https://discord.com/api/v10/channels/1151478201823023214/messages/1291380560643752118'
+}
+Erreur non gérée : DiscordAPIError[10008]: Unknown Message
+    at handleErrors (/volume1/homes/dimitrichassignol/Autres/bot/bad_cop-main/node_modules/@discordjs/rest/dist/index.js:719:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async SequentialHandler.runRequest (/volume1/homes/dimitrichassignol/Autres/bot/bad_cop-main/node_modules/@discordjs/rest/dist/index.js:1110:23)
+    at async SequentialHandler.queueRequest (/volume1/homes/dimitrichassignol/Autres/bot/bad_cop-main/node_modules/@discordjs/rest/dist/index.js:947:14)
+    at async _REST.request (/volume1/homes/dimitrichassignol/Autres/bot/bad_cop-main/node_modules/@discordjs/rest/dist/index.js:1256:22)
+    at async GuildMessageManager.delete (/volume1/homes/dimitrichassignol/Autres/bot/bad_cop-main/node_modules/discord.js/src/managers/MessageManager.js:266:5)
+    at async Message.delete (/volume1/homes/dimitrichassignol/Autres/bot/bad_cop-main/node_modules/discord.js/src/structures/Message.js:829:5) {
+  requestBody: { files: undefined, json: undefined },
+  rawError: { message: 'Unknown Message', code: 10008 },
+  code: 10008,
+  status: 404,
+  method: 'DELETE',
+  url: 'https://discord.com/api/v10/channels/1151478201823023214/messages/1291380560643752118'
+}
+Connecté en tant que Babouin le Flic du Quartier#4046
+Activité mise à jour avec succès : Let's Groove - Earth, Wind & Fire
+Activité mise à jour avec succès : DTR - 7 Décembre à 19h
+Activité mise à jour avec succès : Beverly Hills Cop
+Activité mise à jour avec succès : Beverly Hills Cop
+Activité mise à jour avec succès : Let's Groove - Earth, Wind & Fire
+Activité mise à jour avec succès : Let's Groove - Earth, Wind & Fire
+Activité mise à jour avec succès : Let's Groove - Earth, Wind & Fire
+Activité mise à jour avec succès : Let's Groove - Earth, Wind & Fire
+Activité mise à jour avec succès : Let's Groove - Earth, Wind & Fire
+Activité mise à jour avec succès : DTR - 7 Décembre à 19h
+Activité mise à jour avec succès : Let's Groove - Earth, Wind & Fire
+Activité mise à jour avec succès : Let's Groove - Earth, Wind & Fire
+Activité mise à jour avec succès : Let's Groove - Earth, Wind & Fire
+Activité mise à jour avec succès : DTR - 7 Décembre à 19h
+Activité mise à jour avec succès : Beverly Hills Cop
+Activité mise à jour avec succès : Let's Groove - Earth, Wind & Fire
+Activité mise à jour avec succès : Beverly Hills Cop
+Activité mise à jour avec succès : Beverly Hills Cop
+Activité mise à jour avec succès : DTR - 7 Décembre à 19h
+Activité mise à jour avec succès : DTR - 7 Décembre à 19h
+Activité mise à jour avec succès : Let's Groove - Earth, Wind & Fire
+Activité mise à jour avec succès : Beverly Hills Cop
+Activité mise à jour avec succès : Beverly Hills Cop
+Activité mise à jour avec succès : DTR - 7 Décembre à 19h
+Activité mise à jour avec succès : Let's Groove - Earth, Wind & Fire
+Activité mise à jour avec succès : Beverly Hills Cop
+Activité mise à jour avec succès : DTR - 7 Décembre à 19h
+Activité mise à jour avec succès : Let's Groove - Earth, Wind & Fire
+Activité mise à jour avec succès : Beverly Hills Cop
+Activité mise à jour avec succès : Let's Groove - Earth, Wind & Fire
+Activité mise à jour avec succès : Beverly Hills Cop
+Activité mise à jour avec succès : DTR - 7 Décembre à 19h
+Activité mise à jour avec succès : Let's Groove - Earth, Wind & Fire
+Activité mise à jour avec succès : DTR - 7 Décembre à 19h
+Activité mise à jour avec succès : DTR - 7 Décembre à 19h
+Activité mise à jour avec succès : Let's Groove - Earth, Wind & Fire
+Activité mise à jour avec succès : Beverly Hills Cop
+Activité mise à jour avec succès : Beverly Hills Cop
+Activité mise à jour avec succès : Let's Groove - Earth, Wind & Fire
+Activité mise à jour avec succès : Beverly Hills Cop
+Activité mise à jour avec succès : Let's Groove - Earth, Wind & Fire
+Connecté en tant que Babouin le Flic du Quartier#4046
+Activité mise à jour avec succès : Beverly Hills Cop
+Activité mise à jour avec succès : Let's Groove - Earth, Wind & Fire
+Activité mise à jour avec succès : DTR - 7 Décembre à 19h
+Activité mise à jour avec succès : Beverly Hills Cop
+Activité mise à jour avec succès : Beverly Hills Cop
+Le salon avec l'ID 1163440574548951142 n'existe pas ! (delete)
+Activité mise à jour avec succès : Let's Groove - Earth, Wind & Fire
+Activité mise à jour avec succès : DTR - 7 Décembre à 19h
+Activité mise à jour avec succès : DTR - 7 Décembre à 19h
+Activité mise à jour avec succès : Let's Groove - Earth, Wind & Fire
+Activité mise à jour avec succès : Let's Groove - Earth, Wind & Fire
+Activité mise à jour avec succès : DTR - 7 Décembre à 19h
+Activité mise à jour avec succès : Let's Groove - Earth, Wind & Fire
