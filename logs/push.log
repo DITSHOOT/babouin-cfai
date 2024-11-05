@@ -7088,3 +7088,12 @@ Activité mise à jour avec succès : compter les pas de Vivasse
 Activité mise à jour avec succès : compter les pas de Vivasse
 Connecté en tant que Babouin le Push/Repo#5030
 Connecté en tant que Babouin le Push/Repo#5030
+Connecté en tant que Babouin le Push/Repo#5030
+ConnectTimeoutError: Connect Timeout Error (attempted addresses: 162.159.128.233:443, 162.159.136.232:443, 162.159.138.232:443, 162.159.135.232:443)
+    at onConnectTimeout (/volume1/homes/dimitrichassignol/Autres/bot/push_cop-main/node_modules/undici/lib/core/connect.js:190:24)
+    at /volume1/homes/dimitrichassignol/Autres/bot/push_cop-main/node_modules/undici/lib/core/connect.js:133:46
+    at Immediate._onImmediate (/volume1/homes/dimitrichassignol/Autres/bot/push_cop-main/node_modules/undici/lib/core/connect.js:174:9)
+    at process.processImmediate (node:internal/timers:478:21) {
+  code: 'UND_ERR_CONNECT_TIMEOUT'
+}
+Connecté en tant que Babouin le Push/Repo#5030
