@@ -11935,3 +11935,423 @@ Connecté en tant que Babouin le Flic du Quartier#4046
 Connecté en tant que Babouin le Flic du Quartier#4046
 Connecté en tant que Babouin le Flic du Quartier#4046
 Connecté en tant que Babouin le Flic du Quartier#4046
+Activité mise à jour avec succès : Beverly Hills Cop
+Activité mise à jour avec succès : Beverly Hills Cop
+Activité mise à jour avec succès : Beverly Hills Cop
+Activité mise à jour avec succès : Let's Groove - Earth, Wind & Fire
+Activité mise à jour avec succès : Let's Groove - Earth, Wind & Fire
+Activité mise à jour avec succès : Beverly Hills Cop
+Activité mise à jour avec succès : DTR - 7 Décembre à 19h
+Activité mise à jour avec succès : DTR - 7 Décembre à 19h
+Activité mise à jour avec succès : DTR - 7 Décembre à 19h
+Activité mise à jour avec succès : Let's Groove - Earth, Wind & Fire
+DiscordAPIError[50007]: Cannot send messages to this user
+    at handleErrors (/volume1/homes/dimitrichassignol/Autres/bot/bad_cop-main/node_modules/@discordjs/rest/dist/index.js:719:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async SequentialHandler.runRequest (/volume1/homes/dimitrichassignol/Autres/bot/bad_cop-main/node_modules/@discordjs/rest/dist/index.js:1110:23)
+    at async SequentialHandler.queueRequest (/volume1/homes/dimitrichassignol/Autres/bot/bad_cop-main/node_modules/@discordjs/rest/dist/index.js:947:14)
+    at async _REST.request (/volume1/homes/dimitrichassignol/Autres/bot/bad_cop-main/node_modules/@discordjs/rest/dist/index.js:1256:22)
+    at async DMChannel.send (/volume1/homes/dimitrichassignol/Autres/bot/bad_cop-main/node_modules/discord.js/src/structures/interfaces/TextBasedChannel.js:155:15) {
+  requestBody: {
+    files: [],
+    json: {
+      content: undefined,
+      tts: false,
+      nonce: undefined,
+      embeds: [Array],
+      components: undefined,
+      username: undefined,
+      avatar_url: undefined,
+      allowed_mentions: undefined,
+      flags: undefined,
+      message_reference: undefined,
+      attachments: undefined,
+      sticker_ids: undefined,
+      thread_name: undefined
+    }
+  },
+  rawError: { message: 'Cannot send messages to this user', code: 50007 },
+  code: 50007,
+  status: 403,
+  method: 'POST',
+  url: 'https://discord.com/api/v10/channels/1204331760905752596/messages'
+}
+Erreur non gérée : DiscordAPIError[50007]: Cannot send messages to this user
+    at handleErrors (/volume1/homes/dimitrichassignol/Autres/bot/bad_cop-main/node_modules/@discordjs/rest/dist/index.js:719:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async SequentialHandler.runRequest (/volume1/homes/dimitrichassignol/Autres/bot/bad_cop-main/node_modules/@discordjs/rest/dist/index.js:1110:23)
+    at async SequentialHandler.queueRequest (/volume1/homes/dimitrichassignol/Autres/bot/bad_cop-main/node_modules/@discordjs/rest/dist/index.js:947:14)
+    at async _REST.request (/volume1/homes/dimitrichassignol/Autres/bot/bad_cop-main/node_modules/@discordjs/rest/dist/index.js:1256:22)
+    at async DMChannel.send (/volume1/homes/dimitrichassignol/Autres/bot/bad_cop-main/node_modules/discord.js/src/structures/interfaces/TextBasedChannel.js:155:15) {
+  requestBody: {
+    files: [],
+    json: {
+      content: undefined,
+      tts: false,
+      nonce: undefined,
+      embeds: [Array],
+      components: undefined,
+      username: undefined,
+      avatar_url: undefined,
+      allowed_mentions: undefined,
+      flags: undefined,
+      message_reference: undefined,
+      attachments: undefined,
+      sticker_ids: undefined,
+      thread_name: undefined
+    }
+  },
+  rawError: { message: 'Cannot send messages to this user', code: 50007 },
+  code: 50007,
+  status: 403,
+  method: 'POST',
+  url: 'https://discord.com/api/v10/channels/1204331760905752596/messages'
+}
+Connecté en tant que Babouin le Flic du Quartier#4046
+Redémarrage du bot en cours...
+Le salon avec l'ID 1163440574548951142 n'existe pas ! (delete)
+Connecté en tant que Babouin le Flic du Quartier#4046
+Tentative d'envoi de message de Babouin le Flic du Quartier#4046
+Tentative d'envoi de message de ditshoot
+Tentative d'envoi de message de Babouin le Flic du Quartier#4046
+Tentative d'envoi de message de Babouin le Flic du Quartier#4046
+Tentative d'envoi de message de ditshoot
+Tentative d'envoi de message de Babouin le Flic du Quartier#4046
+Tentative d'envoi de message de Babouin le Flic du Quartier#4046
+Tentative d'envoi de message de ditshoot
+Tentative d'envoi de message de Babouin le Bienveillant#2871
+Tentative d'envoi de message de Babouin le Flic du Quartier#4046
+Tentative d'envoi de message de ditshoot
+Tentative d'envoi de message de Babouin le Flic du Quartier#4046
+Tentative d'envoi de message de Babouin le Bienveillant#2871
+Tentative d'envoi de message de anasyeager
+Tentative d'envoi de message de vince4273
+Tentative d'envoi de message de vince4273
+Tentative d'envoi de message de ditshoot
+Tentative d'envoi de message de ditshoot
+Tentative d'envoi de message de ditshoot
+Tentative d'envoi de message de woinche
+Tentative d'envoi de message de ditshoot
+Tentative d'envoi de message de jordan.d
+Tentative d'envoi de message de Babouin le Flic du Quartier#4046
+Tentative d'envoi de message de jordan.d
+Tentative d'envoi de message de ditshoot
+Tentative d'envoi de message de jordan.d
+Tentative d'envoi de message de ditshoot
+Tentative d'envoi de message de bozo_color
+Tentative d'envoi de message de vince4273
+Tentative d'envoi de message de vince4273
+Tentative d'envoi de message de vince4273
+Tentative d'envoi de message de jordan.d
+Tentative d'envoi de message de ennderr
+Tentative d'envoi de message de jordan.d
+Tentative d'envoi de message de vince4273
+Tentative d'envoi de message de jordan.d
+Tentative d'envoi de message de vince4273
+Tentative d'envoi de message de jordan.d
+Tentative d'envoi de message de ditshoot
+Tentative d'envoi de message de ditshoot
+Tentative d'envoi de message de jordan.d
+Tentative d'envoi de message de jordan.d
+Tentative d'envoi de message de ditshoot
+Tentative d'envoi de message de jordan.d
+Tentative d'envoi de message de jordan.d
+Tentative d'envoi de message de jordan.d
+Tentative d'envoi de message de ditshoot
+Tentative d'envoi de message de ditshoot
+Tentative d'envoi de message de jordan.d
+Tentative d'envoi de message de jordan.d
+Tentative d'envoi de message de jordan.d
+Tentative d'envoi de message de Babouin le Flic du Quartier#4046
+Tentative d'envoi de message de bananatux
+Tentative d'envoi de message de bozo_color
+Tentative d'envoi de message de ditshoot
+Tentative d'envoi de message de ditshoot
+Tentative d'envoi de message de ditshoot
+Tentative d'envoi de message de bananatux
+Tentative d'envoi de message de qwznpa
+Tentative d'envoi de message de bananatux
+Tentative d'envoi de message de ditshoot
+Tentative d'envoi de message de katsyuumi
+Tentative d'envoi de message de bananatux
+Tentative d'envoi de message de saiyan42
+Tentative d'envoi de message de katsyuumi
+Tentative d'envoi de message de katsyuumi
+Tentative d'envoi de message de ditshoot
+Tentative d'envoi de message de qwznpa
+Tentative d'envoi de message de ditshoot
+Tentative d'envoi de message de bananatux
+Tentative d'envoi de message de saiyan42
+Tentative d'envoi de message de woinche
+Tentative d'envoi de message de katsyuumi
+Tentative d'envoi de message de jordan.d
+Tentative d'envoi de message de bananatux
+Tentative d'envoi de message de jordan.d
+Tentative d'envoi de message de bananatux
+Tentative d'envoi de message de ditshoot
+Tentative d'envoi de message de jordan.d
+Tentative d'envoi de message de ditshoot
+Tentative d'envoi de message de katsyuumi
+Tentative d'envoi de message de ditshoot
+Tentative d'envoi de message de bananatux
+Tentative d'envoi de message de Babouin le Flic du Quartier#4046
+Tentative d'envoi de message de Babouin le Flic du Quartier#4046
+Tentative d'envoi de message de Babouin le Flic du Quartier#4046
+Tentative d'envoi de message de jordan.d
+Tentative d'envoi de message de bananatux
+Tentative d'envoi de message de bananatux
+Tentative d'envoi de message de Babouin le Flic du Quartier#4046
+Tentative d'envoi de message de bananatux
+Tentative d'envoi de message de qwznpa
+Tentative d'envoi de message de Babouin le Flic du Quartier#4046
+Tentative d'envoi de message de Babouin le Flic du Quartier#4046
+Tentative d'envoi de message de ditshoot
+Tentative d'envoi de message de ditshoot
+Tentative d'envoi de message de qwznpa
+Tentative d'envoi de message de ditshoot
+Tentative d'envoi de message de ditshoot
+Tentative d'envoi de message de bozo_color
+Tentative d'envoi de message de bozo_color
+Tentative d'envoi de message de ditshoot
+Tentative d'envoi de message de bozo_color
+Tentative d'envoi de message de ditshoot
+Tentative d'envoi de message de ditshoot
+Tentative d'envoi de message de bananatux
+Tentative d'envoi de message de bozo_color
+Tentative d'envoi de message de qwznpa
+Tentative d'envoi de message de qwznpa
+Tentative d'envoi de message de qwznpa
+Tentative d'envoi de message de qwznpa
+Tentative d'envoi de message de ditshoot
+Tentative d'envoi de message de ditshoot
+Tentative d'envoi de message de qwznpa
+Tentative d'envoi de message de bananatux
+Tentative d'envoi de message de ditshoot
+Tentative d'envoi de message de ditshoot
+Tentative d'envoi de message de bananatux
+Tentative d'envoi de message de Babouin le Flic du Quartier#4046
+Tentative d'envoi de message de Babouin le Flic du Quartier#4046
+Tentative d'envoi de message de Babouin le Flic du Quartier#4046
+Tentative d'envoi de message de qwznpa
+Tentative d'envoi de message de jordan.d
+Tentative d'envoi de message de ditshoot
+Tentative d'envoi de message de bananatux
+Tentative d'envoi de message de jordan.d
+Tentative d'envoi de message de ditshoot
+Tentative d'envoi de message de bananatux
+Tentative d'envoi de message de ditshoot
+Tentative d'envoi de message de qwznpa
+Tentative d'envoi de message de jordan.d
+Tentative d'envoi de message de bananatux
+Tentative d'envoi de message de ditshoot
+Tentative d'envoi de message de Babouin le Flic du Quartier#4046
+Tentative d'envoi de message de Babouin le Flic du Quartier#4046
+Tentative d'envoi de message de bananatux
+Tentative d'envoi de message de ditshoot
+Tentative d'envoi de message de ditshoot
+Tentative d'envoi de message de ditshoot
+Tentative d'envoi de message de bananatux
+Tentative d'envoi de message de gqlaxy_
+Tentative d'envoi de message de bananatux
+Tentative d'envoi de message de ditshoot
+Tentative d'envoi de message de bananatux
+Tentative d'envoi de message de Babouin le Flic du Quartier#4046
+Tentative d'envoi de message de qwznpa
+Tentative d'envoi de message de Babouin le Flic du Quartier#4046
+Tentative d'envoi de message de Babouin le Flic du Quartier#4046
+Tentative d'envoi de message de bananatux
+Tentative d'envoi de message de gqlaxy_
+Tentative d'envoi de message de ditshoot
+Tentative d'envoi de message de bananatux
+Tentative d'envoi de message de gqlaxy_
+Tentative d'envoi de message de qwznpa
+Tentative d'envoi de message de bananatux
+Tentative d'envoi de message de ditshoot
+Tentative d'envoi de message de ditshoot
+Tentative d'envoi de message de qwznpa
+Tentative d'envoi de message de ditshoot
+Tentative d'envoi de message de ditshoot
+Tentative d'envoi de message de gqlaxy_
+Tentative d'envoi de message de ditshoot
+Tentative d'envoi de message de gqlaxy_
+Tentative d'envoi de message de ditshoot
+Tentative d'envoi de message de gqlaxy_
+Tentative d'envoi de message de ditshoot
+Tentative d'envoi de message de bananatux
+Tentative d'envoi de message de ditshoot
+Tentative d'envoi de message de ditshoot
+Tentative d'envoi de message de bananatux
+Tentative d'envoi de message de ditshoot
+Tentative d'envoi de message de ditshoot
+Tentative d'envoi de message de ditshoot
+Tentative d'envoi de message de ditshoot
+Tentative d'envoi de message de Babouin le Flic du Quartier#4046
+Tentative d'envoi de message de bananatux
+Tentative d'envoi de message de ditshoot
+Tentative d'envoi de message de qwznpa
+Tentative d'envoi de message de qwznpa
+Tentative d'envoi de message de qwznpa
+Tentative d'envoi de message de bananatux
+Tentative d'envoi de message de qwznpa
+Tentative d'envoi de message de bananatux
+Tentative d'envoi de message de qwznpa
+Tentative d'envoi de message de gqlaxy_
+Tentative d'envoi de message de qwznpa
+Tentative d'envoi de message de bananatux
+Tentative d'envoi de message de gqlaxy_
+Tentative d'envoi de message de gqlaxy_
+Tentative d'envoi de message de qwznpa
+Tentative d'envoi de message de bananatux
+Tentative d'envoi de message de bananatux
+Tentative d'envoi de message de qwznpa
+Tentative d'envoi de message de bananatux
+Tentative d'envoi de message de zak4_2
+Tentative d'envoi de message de zak4_2
+Tentative d'envoi de message de qwznpa
+Tentative d'envoi de message de Babouin le Flic du Quartier#4046
+Tentative d'envoi de message de qwznpa
+Tentative d'envoi de message de tougazak
+Tentative d'envoi de message de jordan.d
+Tentative d'envoi de message de jordan.d
+Tentative d'envoi de message de bozo_color
+Tentative d'envoi de message de tougazak
+Tentative d'envoi de message de gqlaxy_
+Tentative d'envoi de message de gqlaxy_
+Activité mise à jour avec succès : Let's Groove - Earth, Wind & Fire
+Tentative d'envoi de message de vince4273
+Tentative d'envoi de message de vince4273
+Tentative d'envoi de message de vince4273
+Activité mise à jour avec succès : Beverly Hills Cop
+Tentative d'envoi de message de vince4273
+Tentative d'envoi de message de qwznpa
+Tentative d'envoi de message de tougazak
+Tentative d'envoi de message de tougazak
+Tentative d'envoi de message de tougazak
+Tentative d'envoi de message de tougazak
+Activité mise à jour avec succès : Beverly Hills Cop
+Tentative d'envoi de message de qwznpa
+Tentative d'envoi de message de qwznpa
+Tentative d'envoi de message de tougazak
+Tentative d'envoi de message de tougazak
+Tentative d'envoi de message de gqlaxy_
+Tentative d'envoi de message de tougazak
+Tentative d'envoi de message de qwznpa
+Tentative d'envoi de message de qwznpa
+Tentative d'envoi de message de tougazak
+Tentative d'envoi de message de tougazak
+Tentative d'envoi de message de qwznpa
+Tentative d'envoi de message de qwznpa
+Tentative d'envoi de message de qwznpa
+Tentative d'envoi de message de tougazak
+Tentative d'envoi de message de qwznpa
+Tentative d'envoi de message de tougazak
+Tentative d'envoi de message de ennderr
+Tentative d'envoi de message de ennderr
+Tentative d'envoi de message de gqlaxy_
+Tentative d'envoi de message de jordan.d
+Tentative d'envoi de message de jordan.d
+Tentative d'envoi de message de Babouin le Flic du Quartier#4046
+Tentative d'envoi de message de bozo_color
+Tentative d'envoi de message de Babouin le Flic du Quartier#4046
+Tentative d'envoi de message de jordan.d
+Tentative d'envoi de message de jordan.d
+Tentative d'envoi de message de saiyan42
+Tentative d'envoi de message de jordan.d
+Tentative d'envoi de message de jordan.d
+Tentative d'envoi de message de saiyan42
+Tentative d'envoi de message de jordan.d
+Tentative d'envoi de message de jordan.d
+Tentative d'envoi de message de jordan.d
+Tentative d'envoi de message de jordan.d
+Activité mise à jour avec succès : Let's Groove - Earth, Wind & Fire
+Tentative d'envoi de message de jordan.d
+Tentative d'envoi de message de tougazak
+Tentative d'envoi de message de tougazak
+Tentative d'envoi de message de jordan.d
+Tentative d'envoi de message de tougazak
+Activité mise à jour avec succès : DTR - 7 Décembre à 19h
+Activité mise à jour avec succès : Beverly Hills Cop
+Activité mise à jour avec succès : DTR - 7 Décembre à 19h
+Tentative d'envoi de message de qwznpa
+Activité mise à jour avec succès : DTR - 7 Décembre à 19h
+Tentative d'envoi de message de tougazak
+Tentative d'envoi de message de anasyeager
+Tentative d'envoi de message de anasyeager
+Tentative d'envoi de message de bananatux
+Tentative d'envoi de message de bozo_color
+Tentative d'envoi de message de ennderr
+Tentative d'envoi de message de bananatux
+Tentative d'envoi de message de bananatux
+Tentative d'envoi de message de bozo_color
+Tentative d'envoi de message de bananatux
+Tentative d'envoi de message de bozo_color
+Tentative d'envoi de message de bozo_color
+Tentative d'envoi de message de bananatux
+Tentative d'envoi de message de gqlaxy_
+Tentative d'envoi de message de bananatux
+Tentative d'envoi de message de ennderr
+Tentative d'envoi de message de bozo_color
+Tentative d'envoi de message de ennderr
+Tentative d'envoi de message de qwznpa
+Tentative d'envoi de message de bananatux
+Tentative d'envoi de message de ennderr
+Tentative d'envoi de message de qwznpa
+Tentative d'envoi de message de bananatux
+Tentative d'envoi de message de ennderr
+Tentative d'envoi de message de ennderr
+Tentative d'envoi de message de zak4_2
+Tentative d'envoi de message de gqlaxy_
+Tentative d'envoi de message de ennderr
+Tentative d'envoi de message de Babouin le Flic du Quartier#4046
+Tentative d'envoi de message de bananatux
+Tentative d'envoi de message de bozo_color
+Tentative d'envoi de message de zak4_2
+Tentative d'envoi de message de zak4_2
+Tentative d'envoi de message de ennderr
+Tentative d'envoi de message de bananatux
+Tentative d'envoi de message de bananatux
+Tentative d'envoi de message de zak4_2
+Tentative d'envoi de message de zak4_2
+Tentative d'envoi de message de bananatux
+Tentative d'envoi de message de bozo_color
+Tentative d'envoi de message de ditshoot
+Tentative d'envoi de message de ditshoot
+Tentative d'envoi de message de ditshoot
+Tentative d'envoi de message de ditshoot
+Tentative d'envoi de message de ditshoot
+Tentative d'envoi de message de ditshoot
+Tentative d'envoi de message de ditshoot
+Tentative d'envoi de message de ditshoot
+Tentative d'envoi de message de jordan.d
+Tentative d'envoi de message de jordan.d
+Tentative d'envoi de message de ditshoot
+Tentative d'envoi de message de jordan.d
+Tentative d'envoi de message de jordan.d
+Tentative d'envoi de message de jordan.d
+Tentative d'envoi de message de jordan.d
+Tentative d'envoi de message de qwznpa
+Tentative d'envoi de message de jordan.d
+Tentative d'envoi de message de jordan.d
+Tentative d'envoi de message de ditshoot
+Tentative d'envoi de message de qwznpa
+Tentative d'envoi de message de ditshoot
+Tentative d'envoi de message de ditshoot
+Tentative d'envoi de message de ditshoot
+Tentative d'envoi de message de jordan.d
+Tentative d'envoi de message de jordan.d
+Tentative d'envoi de message de ditshoot
+Tentative d'envoi de message de jordan.d
+Tentative d'envoi de message de ditshoot
+Tentative d'envoi de message de ditshoot
+Tentative d'envoi de message de ditshoot
+Tentative d'envoi de message de ditshoot
+Tentative d'envoi de message de jordan.d
+Tentative d'envoi de message de jordan.d
+Tentative d'envoi de message de jordan.d
+Tentative d'envoi de message de jordan.d
+Tentative d'envoi de message de jordan.d
+Tentative d'envoi de message de ditshoot
+Redémarrage du bot en cours...
+Tentative d'envoi de message de Babouin le Flic du Quartier#4046
+Tentative d'envoi de message de Babouin le Flic du Quartier#4046
+Connecté en tant que Babouin le Flic du Quartier#4046

@@ -50,7 +50,6 @@ bot.on('ready', () => {
 // Salon MEME-CFAI
 bot.on('messageCreate', (message) => {
   const channelIDMEME = "1204073066125336626";
-  // console.log(`Tentative d'envoi de message de ${message.author.tag}`);
   if (message.author.bot) return; // Ignorer les messages des bots
   if (message.channel.id === channelIDMEME && message.content && !message.attachments.size) {
     // Si le message est dans le salon spécifique, contient du texte, mais n'a pas d'attachements (images)
