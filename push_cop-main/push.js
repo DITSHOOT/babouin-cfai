@@ -130,6 +130,9 @@ bot.on('messageCreate', (message) => {
   }
 });
 
+
+
+
 bot.on('messageCreate', (message) => {
   if (message.content === '!ping') {
     const embed = new Discord.EmbedBuilder()
