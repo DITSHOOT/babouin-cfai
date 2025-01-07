@@ -23,9 +23,9 @@ let status = [
     status: "dnd",
   },
   {
-    name: 'DTR - 7 Décembre à 19h',
-    type: Discord.ActivityType.Streaming,
-    url: "https://dtrfight.fr/boxeurs/billy/",
+    name: 'SWAT',
+    type: Discord.ActivityType.Watching,
+    status: "dnd",
   },
 ];
 
