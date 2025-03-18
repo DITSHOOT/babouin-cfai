@@ -76,6 +76,18 @@ bot.on('messageCreate', async (message) => {
 });
 
 bot.on('messageCreate', async (message) => {
+<<<<<<< HEAD
+=======
+  if (message.content === '!reload' && message.author.id === "510818650307952640") {
+    await message.delete();
+    console.log("Redémarrage du bot en cours...");
+    await message.channel.send("Redémarrage du bot en cours...");
+    process.exit();
+  }
+});
+
+bot.on('messageCreate', async (message) => {
+>>>>>>> 2d1f914 (test)
     if (message.content.startsWith(config.prefix + 'year')) {
         // Création de l'embed
         const embed = new Discord.EmbedBuilder()

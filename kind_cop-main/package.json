@@ -1,7 +1,12 @@
 {
   "dependencies": {
     "discord.js": "^14.14.1",
+<<<<<<< HEAD
     "express": "^4.19.2"
+=======
+    "express": "^4.19.2",
+    "fs": "^0.0.1-security"
+>>>>>>> 2d1f914 (test)
   },
   "name": "bot-cfai",
   "description": "\"# cfai-bot\"",

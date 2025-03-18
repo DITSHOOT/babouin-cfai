@@ -3,11 +3,24 @@ const bot = new Discord.Client({intents: 3276799})
 const config = require('./config')
 const express = require('express');
 const app = express();
+<<<<<<< HEAD
+=======
+const fs = require('fs');
+>>>>>>> 2d1f914 (test)
 const authorizedIDs = ['493223347375570989', '264867653271814144', '510818650307952640', '220285497552011264']; // Edouard / Jordan / Dimitri / Thibaut
 //const PORT = process.env.PORT || 3000;
 
 bot.login(config.token)
 
+<<<<<<< HEAD
+=======
+// Fonction pour écrire dans le fichier log
+function writeLog(message) {
+  const timestamp = new Date().toISOString();
+  const logMessage = `[${timestamp}] ${message}\n`;
+  fs.appendFileSync('bot.log', logMessage, 'utf8');
+}
+>>>>>>> 2d1f914 (test)
 
 // Tableau des différentes activités
 
@@ -104,6 +117,19 @@ bot.on('messageCreate', async (message) => {
   }
 });
 
+<<<<<<< HEAD
+=======
+
+bot.on('messageCreate', async (message) => {
+  if (message.content === '!reload' && message.author.id === "510818650307952640") {
+    await message.delete();
+    console.log("Redémarrage du bot en cours...");
+    await message.channel.send("Redémarrage du bot en cours...");
+    process.exit();
+  }
+});
+
+>>>>>>> 2d1f914 (test)
 //bot.on('messageCreate', async message => { // Use 'messageCreate' instead of 'message'
   //if (message.author.id === "264867653271814144") {
   //console.log("Envoi d'un message du JO sûrement inutile")

@@ -11,6 +11,7 @@ bot.login(config.token);
 // Tableau des différentes activités
 let status = [
   {
+<<<<<<< HEAD
     name: "les bruits de shakespeare",
     type: Discord.ActivityType.Listening,
   },
@@ -20,6 +21,17 @@ let status = [
   },
   {
     name: "deviner dans chaque verre l'énigme de l'âme",
+=======
+    name: "les murmures de l'univers",
+    type: Discord.ActivityType.Listening,
+  },
+  {
+    name: "l'action amène à la motivation, et non l'inverse.",
+    type: Discord.ActivityType.Watching,
+  },
+  {
+    name: "peindre ses rêves sur la toile de la réalité",
+>>>>>>> 2d1f914 (test)
     type: Discord.ActivityType.Playing,
   },
 ];
@@ -74,6 +86,19 @@ bot.on('messageCreate', async (message) => {
 
 
 bot.on('messageCreate', async (message) => {
+<<<<<<< HEAD
+=======
+  if (message.content === '!reload' && message.author.id === "510818650307952640") {
+    await message.delete();
+    console.log("Redémarrage du bot en cours...");
+    await message.channel.send("Redémarrage du bot en cours...");
+    process.exit();
+  }
+});
+
+
+bot.on('messageCreate', async (message) => {
+>>>>>>> 2d1f914 (test)
   if (message.content.startsWith(config.prefix + 'annonce')) {
     message.delete(); // suppression du message direct
 

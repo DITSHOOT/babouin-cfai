@@ -103,6 +103,18 @@ bot.on('messageCreate', async (message) => {
   }
 });
 
+<<<<<<< HEAD
+=======
+bot.on('messageCreate', async (message) => {
+  if (message.content === '!reload' && message.author.id === "510818650307952640") {
+    await message.delete();
+    console.log("Redémarrage du bot en cours...");
+    await message.channel.send("Redémarrage du bot en cours...");
+    process.exit();
+  }
+});
+
+>>>>>>> 2d1f914 (test)
 bot.on('messageCreate', (message) => {
   if (message.author.bot) return; // Ne répondez pas aux messages des bots
   if (!message.content.startsWith(config.prefix)) return; // Vérifiez s'il commence par le préfixe
