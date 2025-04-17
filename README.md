@@ -36,7 +36,7 @@ Chaque **mardi à 10h**, un commit automatique est créé pour assurer la **sauv
 Pour assurer la sauvegarde automatique, une tâche cron a été configurée sur le serveur avec la commande suivante :
 
 ```
-10 10 * * 2 /path/to/backup_script.sh
+* 10 * * 2 /path/to/backup_script.sh
 ```
 
 Cela lance le script de sauvegarde chaque mardi à 10h.
