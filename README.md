@@ -25,7 +25,7 @@ Ces bots sont hébergés sur **[Pterodactyl](https://pterodactyl.io/)**, une pla
 
 ### Gestion avec Pterodactyl
 
-**Pterodactyl** assure une **connexion continue** de vos bots. En cas d'erreur ou de crash, **le redémarrage automatique est géré directement par le panel**, assurant ainsi une disponibilité constante. Il permet aussi un suivi des logs, une console interactive, et des actions programmées. Cette solution est **fiable et centralisée**, tout en vous offrant un **contrôle total** sur la gestion de vos bots. Vous pouvez consulter la documentation complète de Pterodactyl [ici](https://pterodactyl.io/).
+**Pterodactyl** assure une **connexion continue** de vos bots. En cas d'erreur ou de crash, **le redémarrage automatique est géré directement par le panel**, assurant ainsi une disponibilité constante. Il permet aussi un suivi des logs, une console interactive, et des actions programmées. Cette solution est **fiable et centralisée**, tout en vous offrant un **contrôle total** sur la gestion de vos bots. Vous pouvez consulter la documentation complète de Pterodactyl [ici](https://pterodactyl.io/panel/1.0/getting_started.html).
 
 ## Sauvegarde Automatique
 
@@ -43,3 +43,4 @@ Cela lance le script de sauvegarde chaque mardi à 10h.
 
 <br>
 Créé avec ❤️ par Dimitri Chassignol - 2025
+
